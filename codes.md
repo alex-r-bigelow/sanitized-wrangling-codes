@@ -19,6 +19,5 @@ Codes
 - One Supercomputing participant working on hardware design felt that treating circuit diagrams as "data"
   would be very strange, and perhaps inappropriate
 
-
 Categories
 ==========
