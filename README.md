@@ -9,8 +9,8 @@ archived on osf.io. As such, before committing, please remember to check that:
 2. Feel free to commit ill-formed codes, however, in the spirit of active citation [2], try to include at
    least one of the folloiwng pieces of evidence before committing a code:
    - include a link or paper title when the evidence is coming from a publication
-   - add a short summary of your observation when the evidence is coming from your field notes, also adding
-     a row to informants.csv *KATY: @alex, what is "informants.csv" and what is its purpose?*
+   - add a short summary of your observation when the evidence is coming from your field notes and add
+     a row to informants.csv, describing a general profile of the informant
    - include a link to the relevant response(s) to the survey (TODO: Alex will add an ability to link to
      filtered sets of responses as soon as possible)
 3. You are committing to a branch other than master and request a review from one other author before merging a pull request.
