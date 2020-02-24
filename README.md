@@ -7,7 +7,7 @@ archived on osf.io. As such, before committing, please remember to check that:
 1. No identifiable information about informants or participants is included in anything that you are
    committing.
 2. Feel free to commit ill-formed codes, however, in the spirit of active citation [2], try to include at
-   least one of the folloiwng pieces of evidence before committing a code:
+   least one of the following pieces of evidence before committing a code:
    - include a link or paper title when the evidence is coming from a publication
    - add a short summary of your observation when the evidence is coming from your field notes and add
      a row to informants.csv, describing a general profile of the informant
