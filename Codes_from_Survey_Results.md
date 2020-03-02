@@ -44,4 +44,21 @@
 ### Groups
 - intuition about groups
 	- “Inherent groups”, “sets...derived from domain knowledge”
+	- TODO: find the responses
+
+
+# Text-based data
+
+## Text-based data has different meanings: sometimes to the user it means only text (like an BGP announcement trace) but other times it's combined with media (like a news article that contains text and images)
+- Survey - Domain Characterization: "A set of pair composed by a image of visualization (any chart) and their text that explain that image. We use this to investigate how the words in text are related with the image element (axis, labels, titles, legend colors)."
+- Survey - Domain Characterization: "A collection of free text news articles"
+- Survey - Domain Characterization: "a collection of text documents in a patient record that describe a person's illness trajectory"
+	- Later they add in "Other generalizations": "Not a generalization but more a bit of context. This data is primarily unstructured text indexed in time (all documents have an associated date), but with some pre-processing other elements could arise and yield a highly heterogeneous data collection. For example, categorical/numerical data is often present in medical text; connections can be traced back to common symptoms/issues over time, or denote a causality relation between distinct symptoms... which is why I outlined the "computer" interpretation as potentially encompassing these elements."
+- Survey - Domain Characterization: "Bgp announcement trace"
+
+## The median text-based dataset contains megabytes of data, 100s to 1000s of items, 10s to 100s of attributes
+- calculated from the histograms in the survey
+
+# Questions to examine
+## Looking at the "Alternative <blank>" sections, how many people just went to "Skip This Section" and gave the "it just doesn't fit" response?
 
