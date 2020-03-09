@@ -1,16 +1,15 @@
 # Codes from Survey Results
 
 ## The median dataset is on the order of megabytes (close to gigabytes) in size, with thousands of items in the dataset and tens of attributes.
-- determinined the median response for each of the "Basic Dataset Characteristics" questions (e.g. "Approximately how large is this dataset?")
+- determinined the median response from the histograms for each of the "Basic Dataset Characteristics" questions (e.g. "Approximately how large is this dataset?")
 
 ## In the "Initial Data abstractions" section, some categories had a lot of "Very inaccurate" responses to the data abstraction. WHY?
 - Media (100), textual (78), network/hierarchy (76), spatial/temporal (39), grouped (38), tabular (22)
-- is this because the data abstraction is inappropriate for my data (like storing a table as an image) or is this because "no, teh computer stores my data in a very different way than you have suggested"?
+- is this because the data abstraction is inappropriate for my data (like storing a table as an image) or is this because "no, the computer stores my data in a very different way than you have suggested"?
 
 ## Functions as data
 - "I work with visualizing continuous models. The dataset is the model/function itself. Discrete samples are not part of the dataset."
 	- This respondant sometimes thinks of the dataset as grouped, spatial/temporal, or network/hierarchy but otherwise responded "never" for tabular, textual, and media.
-
 
 
 ## Data abstractions that we didn't consider
@@ -33,8 +32,8 @@
 	- "I find the separation of hierarchies and groupings to be a bit problematic for this domain. Many codes, such as diagnosis codes, exist in a hierarchy (defined by metadata). However it is quite common to refer to areas of this hierarchy as groupings."
 - Functions
 	- "I work with visualizing continuous models. The dataset is the model/function itself. Discrete samples are not part of the dataset"
-	- Sequences: "I usually think of this dataset as sequences"
-		- dataset is "user interactions with an application I built"
+- Sequences: "I usually think of this dataset as sequences"
+	- dataset is "user interactions with an application I built"
 - Free format:
 	- "free format (e.g. human responses like this one); updated real-time (e.g. sensor data); learned data"
 
@@ -67,13 +66,13 @@
 	- "Different groups of users fall into usage patterns, which emerges out of the dataset once its coded and analyzed"
 	- "Viewed as a grouped dataset, each neuron cell + its axons/dendrites can be seen as a tree, and there's a set of these trees"
 	- "mentions o frelated symptoms/events over time"
-### Another way pepole think about (or create/imagine) groups: Due to the structure/organization of the data, one user said "grouped by certain attribute similarity", which relates to these other responses: "Categorically", "political views, demographics", "Movie genres, global location of the production house, movie review rating bins etc."
+### Another way pepole think about (or create/imagine) groups: Due to the structure/organization of the data, one user said "grouped by certain attribute similarity", which relates to these other responses regarding groups: "Categorically", "political views, demographics", "Movie genres, global location of the production house, movie review rating bins etc."
 
 
 ## Metadata or some initial data processing sometimes yields a more useful/valuable/interesting data set
 - this is related to discussions on 2/27/20, A-2's circles around the nodes of our data types network (e.g. how linear regressions might be a level up / encompass tabular data)
 - From "Initial Network / Hierarchy Data Details -- Are there any other characteristics that you would use to describe the network?"
-		- "the dataset would be considered a network for analysis reasons (neighborhoods, common phase) only, this is not contained in the data itself"
+	- "the dataset would be considered a network for analysis reasons (neighborhoods, common phase) only, this is not contained in the data itself"
 
 
 
