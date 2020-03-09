@@ -9,53 +9,101 @@ Formatting conventions
 Codes
 =====
 
-## The median dataset is on the order of megabytes (close to gigabytes) in size, with thousands of items in the dataset and tens of attributes.
+## 1. The median dataset is on the order of megabytes (close to gigabytes) in size, with thousands of items in the dataset and tens of attributes.
 - determinined the median response for each of the "Basic Dataset Characteristics" questions (e.g. "Approximately how large is this dataset?")
 
-## In the "Initial Data abstractions" section, some categories had a lot of "Very inaccurate" responses to the data abstraction. WHY?
+## 2. In the "Initial Data abstractions" section, some categories had a lot of "Very inaccurate" responses to the data abstraction. WHY?
 - Media (100), textual (78), network/hierarchy (76), spatial/temporal (39), grouped (38), tabular (22)
 - is this because the data abstraction is inappropriate for my data (like storing a table as an image) or is this because "no, the computer stores my data in a very different way than you have suggested"?
 
-## Many people consider functions as data
+## 3. Many people consider functions as data
   - Conversation after presentation about project with A-1, A-2, I-05: I-05 and A-2 would not consider constraint data, such as for linear or integer programming, as fitting any of our initial six categories. Although I-05 thinks in terms of half-spaces, sub-spaces, etc., "spatial" data, as we use it, seems imprecise
   - "I work with visualizing continuous models. The dataset is the model/function itself. Discrete samples are not part of the dataset."
     - Dataset: regression models made from housing data (Serendipitous discovery after adding the above quote to this code)
 	- Sequences: "I usually think of this dataset as sequences"
 		- dataset is "user interactions with an application I built"
+  - I-18's first response, when introduced to the survey, was to say "all my data is functions;" described lists of PDEs
 
-## It is possible to consider code to be data
+## 4. It is possible to consider code to be data
   - Conversation with A-1, I-06, I-07, I-08, I-09, I-10, I-11, I-12 about open science and data sharing; code definitely counts as "data," or at least "metadata," in that it tells you where a given dataset came from. Per I-06: "one person's metadata is another person's data."
   - A-2's experience reviewing jupyter notebooks; observed that many people curate, based on intended audience, how many comments to include, how to structure the code, etc. "so that it's usable." Replicability is a major complaint with code in general, including Jupyter notebooks—we could consider code reshaping through the lens of wrangling
     - We would consider this as code wrangling, but most people probably wouldn't
 
-## Data design difficult to talk about in isolation from discovery, capture, curation, creation [Muller, CHI 2019]
+## 5. Data design difficult to talk about in isolation from discovery, capture, curation, creation [Muller, CHI 2019]
   - Discussions about data formats within, and more frequently outside of the VIS community, proved very difficult for A-1 to keep focused on design, and quick transitions to other data wrangling considerations, especially provenance were common (specific instances: discussions with I-02, I-03)
 
-## People have "gut feelings," intuition about their data as networks
+## 6. People have "gut feelings," intuition about their data as networks
 - Networks: the data workers seem to have a gut feeling that their data is network/relational but they don’t have a clear understanding of what these relations/hierarchies are (they seem that they are waiting to explore the data and find these out)
+- From "Initial Network / Hierarchy Data Deails -- If, on second thought, this does not describe the data":
+  - "It is possible to have a network and I hope to work with it later. as of now, it doesn't have relationships. hence.."
+  - "I don’t think of this in terms of nodes but in terms of a hierarchical dataset."
+  - "Taxonomy is hierarchical"
+- From "Initial Network / Hierarchy Data Details -- Are there any other characteristics that you would use to describe the network?"
+  - "the dataset would be considered a network for analysis reasons (neighborhoods, common phase) only, this is not contained in the data itself"
+  - "The data describes a hierarchy within e.g. a protein: A structure consists of models A model consists of chains A chain consists of residues A residue consists of atoms"
+  - "DAG
+  - "It's a tree"
+  - "Approximately a chain with bounded width"
+- "I know the dataset might have a hierarchical structure but I don't currently have access to it so I cannot describe it"
 
-## People have "gut feelings," intuition about their data as Groups
+## 7. People have "gut feelings," intuition about their data as Groups
 - intuition about groups
-	- “Inherent groups”, “sets...derived from domain knowledge”
+  - “Inherent groups”, “sets...derived from domain knowledge”
+	- "I assume there are clusters in the data, but not looked into is so far."
+	- "I expect the output to be logically grouped. But I don't think there's a clustering attribute"
+	- "Data is grouped in a hierarchy: Building have devices. Devices have sensors"
+		- "grouping is given by the hierarchy A structure consists of models A model consists of chains A chain consists of residues A residue consists of atoms"
+		- "Each datum is tied to a point in space, which exists within multiple levels of a hierarchy"
+		- ... several other responses saying their dataset is part of/contains a hierarchy
+	- "Because it’s data about inhabitants of a city, there are definitely groups that are latent; college kids, young families, various neighborhoods. I wonder if there are some inherent topics that exist in the data."
+	- "Artificially Grouped (vs. naturally)"
+		- TODO: what does that mean?
+	- "Sets of nodes can be derived from domain knowledge, parts of label, and additional data in tables for each node type."
+	- "Different groups of users fall into usage patterns, which emerges out of the dataset once its coded and analyzed"
+	- "Viewed as a grouped dataset, each neuron cell + its axons/dendrites can be seen as a tree, and there's a set of these trees"
+	- "mentions o frelated symptoms/events over time"
 
-## Many people don't feel that what they work with "counts as data"
+## 8. Many people don't feel that what they work with "counts as data"
 - Common refrain while soliciting survey participation at both technical conferences, as well as through deployment across the University
 - Three informants (I-01, I-02, I-04) independently made this observation (on two different occasions speaking with A-1) while reflecting on their experiences working with / mentoring people new to Data Science
 - A regular data science workshop in the humanities, run by I-02, tends to get very low attendance; often the same three
   participants
 - One Supercomputing survey participant working on hardware design felt that treating circuit diagrams as "data" would be very strange, and perhaps inappropriate
 - "I don't work with datasets or plan to collect data to create one. My work is in architecture design and we don't perform analysis on datasets."
+  - https://alex-r-bigelow.github.io/wrangling-survey/Responses.html?viewIndex=1&filters=wpHCgsKkdHlwZcKqVGV4dEZpbHRlcsKkc8SFY8KDwqxyZcSTb25zZVTEhGXCq2Rhc1LEmXDEm8SdwqNrZXnCsURvbWFpblZpZXdQcm_Ej3N0wqV2YWx1ZcOZwo5JIGTEmyd0IHdvcmvFjml0aMWJYXTEpGV0cyDFkCBwbGFuIHRvIGNvbGxlY8WNxKPFmcWlxadjxJjFmGXFnm5lLiBNecWOxZDFkmnFncS0IGFyY2jFlMWtdHXEmMWJxJlpZ8WkxaNkxY7Ft8WKbsWMxaDEkGbFkG3GhW7FgnlzxoLFuMWXxZnEncWcLg
 - Re: "one person's metadata is another person's data"—many people may not be aware that they are producing data during various activites (such as writing code)
   - A-2's experience reviewing jupyter notebooks: that code is A-2's dataset
 
-## Even very technical people find some data abstraction concepts, language foreign
+## 9. Even very technical people find some data abstraction concepts, language foreign
   - One Supercomputing survey participant was confused by "item" vs "attribute" terminology. In their response, "tens of items" was selected (initially thinking about table columns), but then selected millions after discussing with A-1, A-3
   - Other generalizations: "A spreadsheet," even though "Tabular" data was an option and we gave them the opportunity to rename it (although they may not have known)!
 
-## Raw data abstractions difficult to talk about in isolation from software abstractions
+## 10. Raw data abstractions difficult to talk about in isolation from software abstractions
   - Conversations proved very difficult to for A-1 focus on how a person thinks about their data; participants frequently pivoted to talking about abstractions imposed by software that were often only loosely associated with the data model itself (such as git's model of remotes and branches with I-02, or Jupyter's statefulness with I-02 and I-13)
   - Other generalizations: "A spreadsheet," even though "Tabular" data was an option and we gave them the opportunity to rename it (although they may not have known)!
 
+## 11. Thinking about alternative data abstractions can provoke fears of scope creep
+  - Conversation w/ I-06, I-07, I-08, I-09, I-10, I-11, I-12; all expressed similar concerns, particularly I-06. I-07 related a story about how they had almost forced a collaborator to do a lot of unnecessary manual labor to accomodate the needs of I-07's imposed data abstraction. Although there was consensus that exploring alternative abstractions can be very beneficial for the success of a project, it was cautioned that it also has the potential to cause misalignments in the vision of a collaboration. I-09 remarked that, as a scientific project advances, "you need to start closing doors along the way" (in reference to the many different, interesting questions / perspectives that you *could* explore, but choose not to in order to keep a project's scope reasonable)
+
+## 12. There is wide variation in how people describe hierarchies
+  - Some initial difficulties designing the survey (A-1)
+  - Conversation between all authors (A-1, A-2, A-3): could describe hierarchies as spatial, as networks, as nested sets... are hierarchies even networks? Is this a historical thing related to functions: are functions even spatial? Does the history matter… or should we be thinking of these things (functions, hierarchies) as separate things (functions are not spatial, hierarchies are distinct from networks)? Core: are a tree and a hierarchy the same thing? A-3 says no, they have semantic differences
+
+## 13. There are times when the data is derived, and when you assume that you'll need to immediately derive something
+  - Conversation between all authors (A-1, A-2, A-3)
 
 Categories
 ==========
+## Data abstraction doesn't matter\*... in isolation
+\* (TODO before merging: A-3 articulated this really well, and I missed writing it down)
+
+Codes: 5, 8, 9, 10, 11
+
+## Latent data abstractions\* are very common
+\* Definition: A meaningful, useful abstraction of the data is possible yet not fully articulated, or even thought out
+Codes: 2, 3, 4, 6, 7, 8, 12, 13
+
+## Visualization community abstractions validated\*
+\* Threat to validity: would this thing be true with different abstraction categories?
+
+Codes: 6, 7
