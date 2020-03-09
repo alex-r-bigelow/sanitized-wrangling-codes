@@ -67,11 +67,11 @@
 	- "Different groups of users fall into usage patterns, which emerges out of the dataset once its coded and analyzed"
 	- "Viewed as a grouped dataset, each neuron cell + its axons/dendrites can be seen as a tree, and there's a set of these trees"
 	- "mentions o frelated symptoms/events over time"
-### Due to the structure/organization of the data, one user said "grouped by certain attribute similarity", which relates to these other responses: "Categorically", "political views, demographics", "Movie genres, global location of the production house, movie review rating bins etc.",
+### Another way pepole think about (or create/imagine) groups: Due to the structure/organization of the data, one user said "grouped by certain attribute similarity", which relates to these other responses: "Categorically", "political views, demographics", "Movie genres, global location of the production house, movie review rating bins etc."
 
 
 ## Metadata or some initial data processing sometimes yields a more useful/valuable/interesting data set
-- this is related to discussions on 2/27/20, A2's circles around the nodes of our data types network (e.g. how linear regressions might be a level up / encompass tabular data)
+- this is related to discussions on 2/27/20, A-2's circles around the nodes of our data types network (e.g. how linear regressions might be a level up / encompass tabular data)
 - From "Initial Network / Hierarchy Data Details -- Are there any other characteristics that you would use to describe the network?"
 		- "the dataset would be considered a network for analysis reasons (neighborhoods, common phase) only, this is not contained in the data itself"
 
