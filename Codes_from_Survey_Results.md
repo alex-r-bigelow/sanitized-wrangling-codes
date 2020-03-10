@@ -107,14 +107,14 @@
 - "Tableau, D3, Windows 10 Game toolbar to record a video"
 - "Using the Information from the Trace data, run an animation implemented with JS and d3 and record it"
 
-## Sometimes more information is needed before transitioning: participents noted they would need to ask an expert (domain expert or vis expert) for help ("help" being more data/details or visualization help) or they would need to collect additional data.
+## Sometimes more information is needed before transitioning: participents noted they would need to ask an expert (domain expert or vis expert) for help ("help" being more data/details or visualization help).
 - "Could be displayed as a tree, i would hire someone"
-- "We'd need finer-grained labels on the imagery."
 - "I think I would need to discuss this in more detail with a domain expert.  I think they do have conceptual descriptions of ocean currents that would be used through labeling regions, but this data was not provided."
+
+## Sometimes more information needs to be added to the data before transitioning: participents noted they would need to collect additional data. 
+- "We'd need finer-grained labels on the imagery."
 - "I would not transform existing dataset but rather collect additional data, including politicians' images, speech transcripts or recordings, videos, etc. "
 - "I was initially considering just the text components of the patient record for my initial assessment, but images are often an important component of the record for a number of medical specialists."
-
-
 
 # Questions to examine
 ## Looking at the "Alternative <blank>" sections, how many people just went to "Skip This Section" and gave the "it just doesn't fit" response?
