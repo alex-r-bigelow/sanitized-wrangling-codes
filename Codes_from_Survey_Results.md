@@ -88,5 +88,33 @@
 ## The median text-based dataset contains megabytes of data, 100s to 1000s of items, 10s to 100s of attributes
 - calculated from the histograms in the survey
 
+# Tool Support
+### The question was “If you actually needed to transform (Participant's initial dataset label) data into a (Alternative abstraction type) format, what software tools, programming languages, or approaches do you think you would be most likely to use? Please separate responses with commas.”
+
+## Python was the most-cited tool with 41 responses, followed by Excel and R (7), then JavaScript and C++ (6)
+- calculated from alternativeExplorations.ndjson --> tool_counts.csv
+
+## Respondents included "techniques" in their responses for tool support
+- "Python, nlp techniques"
+- "NLP, Python"
+- "Python, compression and parallelization"
+- "Machine learning,python,JavaScript"
+- "Cluster into connected components"
+- "Morse Smale Complex"
+- "I would build an adjacency matrix."
+
+## When forced to think of their data as "media", a common response was to use some sort of web animation (e.g. JavaScript or d3) and then use screen-capturing to get images and video of the data.
+- "Tableau, D3, Windows 10 Game toolbar to record a video"
+- "Using the Information from the Trace data, run an animation implemented with JS and d3 and record it"
+
+## Sometimes more information is needed before transitioning: participents noted they would need to ask an expert (domain expert or vis expert) for help ("help" being more data/details or visualization help) or they would need to collect additional data.
+- "Could be displayed as a tree, i would hire someone"
+- "We'd need finer-grained labels on the imagery."
+- "I think I would need to discuss this in more detail with a domain expert.  I think they do have conceptual descriptions of ocean currents that would be used through labeling regions, but this data was not provided."
+- "I would not transform existing dataset but rather collect additional data, including politicians' images, speech transcripts or recordings, videos, etc. "
+- "I was initially considering just the text components of the patient record for my initial assessment, but images are often an important component of the record for a number of medical specialists."
+
+
+
 # Questions to examine
 ## Looking at the "Alternative <blank>" sections, how many people just went to "Skip This Section" and gave the "it just doesn't fit" response?
