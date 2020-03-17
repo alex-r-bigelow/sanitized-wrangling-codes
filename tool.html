@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tool Use</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--   <link href="css/style.css" rel="stylesheet"> -->
+  <style type="text/css">
+    body {
+      font-family: sans-serif;
+    }
+
+    .axis {
+    font: 10px sans-serif;
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+  </style>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script>
+    d3.csv("tool_counts.csv").then(function(data){
+      console.log(data);
+      sortedTools = data.slice().sort((a,b) => d3.descending(+a.count, +b.count));
+      console.log(sortedTools);
+
+
+      var div = d3.select("#vis")
+      .selectAll("div")
+      .data(sortedTools)
+      .enter()
+      .append("div")
+      .text(d => d.tool + " " + d.count);
+    });
+
+
+    var margin = {top: 20, right: 20, bottom: 70, left: 40},
+    width = 600 - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom;
+
+// Parse the date / time
+var parseDate = d3.time.format("%Y-%m").parse;
+
+var x = d3.scaleBand().domain([1,2,3,5]).range([0,45]);
+
+var y = d3.scale.linear().range([height, 0]);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom")
+    .tickFormat(d3.time.format("%Y-%m"));
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .ticks(10);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", 
+          "translate(" + margin.left + "," + margin.top + ")");
+
+d3.csv("bar-data.csv", function(error, data) {
+
+    data.forEach(function(d) {
+        d.date = parseDate(d.date);
+        d.value = +d.value;
+    });
+  
+  x.domain(data.map(function(d) { return d.date; }));
+  y.domain([0, d3.max(data, function(d) { return d.value; })]);
+
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis)
+    .selectAll("text")
+      .style("text-anchor", "end")
+      .attr("dx", "-.8em")
+      .attr("dy", "-.55em")
+      .attr("transform", "rotate(-90)" );
+
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+    .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Value ($)");
+
+  svg.selectAll("bar")
+      .data(data)
+    .enter().append("rect")
+      .style("fill", "steelblue")
+      .attr("x", function(d) { return x(d.date); })
+      .attr("width", x.rangeBand())
+      .attr("y", function(d) { return y(d.value); })
+      .attr("height", function(d) { return height - y(d.value); });
+
+});
+  </script>
+
+</head>
+
+<body>
+
+  <p>Categories:</p>
+  <ul>
+    <li>[tool]: the tool used (e.g. Python, Google_Maps). Note: web_scraping and data_mining was considered a 'tool' and not a 'technique'</li>
+    <li>ask_expert: participant stated they needed more details or needed to discuss with a domain expert</li>
+    <li>no_change: can use the existing data as-is</li>
+    <li>unsure: participant seemed unsure whether the data could be transformed to the suggested alternative representation and so they did not suggest any tools</li>
+    <li>tool_wish: participant requested a tool that they know does not exist (response28)</li>
+    <li>library: participant requested a general library that they know exists but didn't name a specific one</li>
+    <li>record_animation: for media, many participants said they would record an animation using some form of screen capture (e.g. d3 and screen capture)</li>
+    <li>technique: participant listed a technique (e.g. clustering, compression, "Morse Smale Complex"). Note: we included the responses "Machine Learning" (ML) and "NLP" as techniques</li>
+  </ul>
+  <div id="vis"></div>
+
+</body>
+
+</html>
