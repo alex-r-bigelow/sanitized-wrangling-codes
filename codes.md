@@ -92,10 +92,53 @@ Codes
 ## 13. There are times when the data is derived, and when you assume that you'll need to immediately derive something
   - Conversation between all authors (A-1, A-2, A-3)
 
+## 14. There was a wide distribution of the tools, techniques that people (would) use to wrangle data
+  - see tool_counts.csv, tool.html
+
+## 15. Respondents included "techniques" in their responses for tool support
+- "Python, nlp techniques"
+- "NLP, Python"
+- "Python, compression and parallelization"
+- "Machine learning,python,JavaScript"
+- "Cluster into connected components"
+- "Morse Smale Complex"
+- "I would build an adjacency matrix."
+
+## 16. Validated: People tend to turn to data abstractions that match some existing prior experience with software
+- Discussion between A-1, A-2, reflecting on codes 5, 10, 14, 16
+
+
+## 17. "Media" as a category had a less-well-defined mental model, resulting in a space with too little structure for participants to map their data crisply when forced to think of their data as "media"
+  - a common response was to use some sort of web animation (e.g. JavaScript or d3) and then use screen-capturing to get images and video of the data.
+    - "Tableau, D3, Windows 10 Game toolbar to record a video"
+    - "Using the Information from the Trace data, run an animation implemented with JS and d3 and record it"
+  - Comments like "This is weird. I think of the data not as media, but I'm actively trying to turn it into media."
+    - https://alex-r-bigelow.github.io/wrangling-survey/Responses.html?viewIndex=17&filters=wpHCgsKkdHlwZcKqVGV4dEZpbHRlcsKkc8SFY8KDwqxyZcSTb25zZVTEhGXCq2V0c1LEmXDEm8SdwqNrZXnCq8SYZmxlY3RpxKnCpXZhbHVlw5lgVGhpcyDFgiB3ZWlyZC4gIEkgdMWBbmsgb2bFkGhlIGRhdGEgbm90IGHFg21lZGlhLCBidcWjSSdtxaTEtGl2ZWx5xZByeWluZ8WQb8WQdXJuxYTFo8W-dMaCxafFqWEu
+  - "I have displayed this data by mapping some of it to the three RGB color channels and making a heatmap, but I don't consider the data itself to "be" media or "have" media."
+    - https://alex-r-bigelow.github.io/wrangling-survey/Responses.html?viewIndex=16&filters=wpHCgsKkdHlwZcKqVGV4dEZpbHRlcsKkc8SFY8KDwqxyZcSTb25zZVTEhGXCq2V0c1LEmXDEm8SdwqNrZXnCqW1lZGlhTWlzY8KldmFsdWXDmcKqSSBoYXZlIMSyxJNsYXnEsSB0aMS2xYdhdGEgYnkgbWFwcGluZyBzb8SwIG9mIGl0xY5vxY5oxYbFj8SYxYZSR0IgY29sb3LFtsWDbm5lbHMgYW5kxZlha8WexaDFlcWuxZPFmnAsxZZ1xarFgWTEmyfFqsW3xJxpZMSQxa3FhmTFk8WVxanEnWzFp3TFrCJiZSLFmcSxxLPFpcW7IsWDxYXGrcSwxLJhLg
+  - The data set itself does not include any media, but interpretations of it are visual in nature. Brain regions are spatial, regardless whether this is captured explicitly in the data set. The data could be illustrated by addition of multidimensional images or 3D meshes when interlinked with Concepts in the graph, though it'd be interesting to consider whether visuospatial imagination counts as a medium as well.
+    - https://alex-r-bigelow.github.io/wrangling-survey/Responses.html?viewIndex=9&filters=wpHCgsKkdHlwZcKqVGV4dEZpbHRlcsKkc8SFY8KDwqxyZcSTb25zZVTEhGXCq2Rhc1LEmXDEm8SdwqNrZXnCsE1lZGlhVmlld1Byb8SPc3TCpXZhbHVlw5oBwp1UaGUgxKN0YSDEnXQgaXTEnWxmxYtvxJkgbsS7xZJuY8WCZMWKYW55IG3EscSzLCBidcWRaW7Ej3JwxJjFjXRpxKkgb8WXxZMgYcSYIHZpc3XFgcWexZthdHXEmC4gQnJhxbAgxJhnxbjEnMW-xoDEk8aJxLNsxavGlMW_ZGzEmXMgd8WJdMWJciDGqMaDxZLGpGNhcMaKxJhkIMSJcGxpY8WTbMWmxpLGqMWKxYzFjsWQxo3FiMeBxonFjmNvdWzGtWLFisSNxYLEvcaQxI_HjsWmYWTEssW3xJvFusWXbceMxbfEssWoxJzGlsaGaW1hZ8Wab8aqM0TFp8SZxYnGpMamZW7FnsWyxrluxKzGtXfFk2ggQ8SbY2XGssakxr_FiSBnxpBwaMWrxqjHi2fHv8WTJ8eOx5DFscSQxJnFt25nxqtvIMeKx6TFosaqx7THgMaqxoLGhG_GmsW3x6bHqMaVbsabx5zHinXFscakxKTFvsewxLJ1bcW-x7NlbGwu
+
+## 18. Sometimes more information is needed before transitioning: participents noted they would need to ask an expert (domain expert or vis expert) for help ("help" being more data/details or visualization help).
+  - "Could be displayed as a tree, i would hire someone"
+  - "I think I would need to discuss this in more detail with a domain expert.  I think they do have conceptual descriptions of ocean currents that would be used through labeling regions, but this data was not provided."
+
+## 19. Sometimes more information needs to be added to the data before transitioning: participents noted they would need to collect additional data.
+  - "We'd need finer-grained labels on the imagery."
+  - "I would not transform existing dataset but rather collect additional data, including politicians' images, speech transcripts or recordings, videos, etc. "
+  - "I was initially considering just the text components of the patient record for my initial assessment, but images are often an important component of the record for a number of medical specialists."
+
+## 20. People have emotions about data abstractions
+ - (todo: A-1's evidence)
+ - A-1, A-2 discussion: Abstractions are personalized / subjective / contextual; you have to remember the ecosystem of how the data was created, who it's going to impact, who are the subject
+
+
+
+
 Categories
 ==========
 ## Data abstraction doesn't matter\*... in isolation
-\* (TODO before merging: A-3 articulated this really well, and I missed writing it down)
+\* (TODO: A-3's insight)
 
 Codes: 5, 8, 9, 10, 11
 
@@ -107,3 +150,8 @@ Codes: 2, 3, 4, 6, 7, 8, 12, 13
 \* Threat to validity: would this thing be true with different abstraction categories?
 
 Codes: 6, 7
+
+## People are more willing think about their data abstraction in a theoretical sense when there is not a direct mapping between familiar software and the format of the raw data
+\* Otherwise they default to familiar software, and may resist attempts to encourage thinking about other abstractions
+
+Codes: 5, 10, 14, 15, 16, 18
