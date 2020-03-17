@@ -1,7 +1,7 @@
 Formatting conventions
 ======================
 
-# Codes and categories should be written as first-level headers
+## Codes and categories should be written as first-level headers
 - Discrete supporting evidence
 - (or codes associated with categories)
 - are listed as distinct bullet points
@@ -107,7 +107,6 @@ Codes
 ## 16. Validated: People tend to turn to data abstractions that match some existing prior experience with software
 - Discussion between A-1, A-2, reflecting on codes 5, 10, 14, 16
 
-
 ## 17. "Media" as a category had a less-well-defined mental model, resulting in a space with too little structure for participants to map their data crisply when forced to think of their data as "media"
   - a common response was to use some sort of web animation (e.g. JavaScript or d3) and then use screen-capturing to get images and video of the data.
     - "Tableau, D3, Windows 10 Game toolbar to record a video"
@@ -132,8 +131,13 @@ Codes
  - (todo: A-1's evidence)
  - A-1, A-2 discussion: Abstractions are personalized / subjective / contextual; you have to remember the ecosystem of how the data was created, who it's going to impact, who are the subject
 
+## 21. Meta-abstractions help people communicate at a sufficient level of detail to design a visualization system
+  - Experience prototyping vis designs with I-06, I-07, I-08, I-09, I-10, I-11, I-12
 
-
+## 22. Validated: showing real data (such as showing a spreadsheet in Excel) helps people communicate effectively about abstractions
+  - Conversation with I-03
+  - Conversation with I-19
+  - Experience prototyping vis designs with I-06, I-07, I-08, I-09, I-10, I-11, I-12
 
 Categories
 ==========
@@ -143,15 +147,20 @@ Categories
 Codes: 5, 8, 9, 10, 11
 
 ## Latent data abstractions\* are very common
-\* Definition: A meaningful, useful abstraction of the data is possible yet not fully articulated, or even thought out
+\* Definition: A meaningful, useful abstraction of the data is possible yet not fully communicated, or even thought out
+
 Codes: 2, 3, 4, 6, 7, 8, 12, 13
 
-## Visualization community abstractions validated\*
+## Visualization community meta-abstractions validated\*
 \* Threat to validity: would this thing be true with different abstraction categories?
 
 Codes: 6, 7
 
-## People are more willing think about their data abstraction in a theoretical sense when there is not a direct mapping between familiar software and the format of the raw data
-\* Otherwise they default to familiar software, and may resist attempts to encourage thinking about other abstractions
+## People (non-VIS people?) are more willing explore alternative data abstractions when there is not a direct mapping between familiar software and the format of the raw data
+\* Otherwise they default to familiar software, and may resist attempts to discover latent abstractions
 
 Codes: 5, 10, 14, 15, 16, 18
+
+## The juxtaposition of real data and a meta-abstraction (even if both are deeply flawed) helps to focus communication at a level of detail that includes actionable information
+
+Codes: 3, 4, 12, 17, 18, 19, 21, 22
