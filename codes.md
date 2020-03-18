@@ -128,7 +128,7 @@ Codes
 
 ## EMOTIONS_ABOUT_DATA_ABSTRACTIONS. People have emotions about data abstractions
  - (todo: A-1's evidence)
- - A-1, A-2 discussion: Abstractions are personalized / subjective / contextual; you have to remember the ecosystem of how the data was created, who it's going to impact, who are the subject
+ - A-1, A-2 discussion: Abstractions are personalized / subjective / contextual; you have to remember the ecosystem of how the data was created, who it's going to impact, who are the subjects
 
 ## META-ABSTRACTIONS_HELP_COMMUNICATION. Meta-abstractions help people communicate at a sufficient level of detail to design a visualization system
   - Experience prototyping vis designs with I-06, I-07, I-08, I-09, I-10, I-11, I-12
