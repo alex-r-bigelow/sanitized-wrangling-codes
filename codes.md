@@ -10,7 +10,7 @@ Codes
 =====
 
 ## RESPONSE_SIZES. The median dataset is on the order of megabytes (close to gigabytes) in size, with thousands of items in the dataset and tens of attributes.
-  - determinined the median response for each of the "Basic Dataset Characteristics" questions (e.g. "Approximately how large is this dataset?")
+  - determined the median response for each of the "Basic Dataset Characteristics" questions (e.g. "Approximately how large is this dataset?")
 
 ## MANY_VERY_INACCURATE_RESPONSES. In the "Initial Data abstractions" section, some categories had a lot of "Very inaccurate" responses to the data abstraction. WHY?
   - Media (100), textual (78), network/hierarchy (76), spatial/temporal (39), grouped (38), tabular (22)
@@ -34,7 +34,7 @@ Codes
 
 ## INTUITION_ABOUT_NETWORKS. People have "gut feelings," intuition about their data as networks
   - Networks: the data workers seem to have a gut feeling that their data is network/relational but they don’t have a clear understanding of what these relations/hierarchies are (they seem that they are waiting to explore the data and find these out)
-  - From "Initial Network / Hierarchy Data Deails -- If, on second thought, this does not describe the data":
+  - From "Initial Network / Hierarchy Data Details -- If, on second thought, this does not describe the data":
     - "It is possible to have a network and I hope to work with it later. as of now, it doesn't have relationships. hence.."
     - "I don’t think of this in terms of nodes but in terms of a hierarchical dataset."
     - "Taxonomy is hierarchical"
@@ -60,7 +60,7 @@ Codes
 	- "Sets of nodes can be derived from domain knowledge, parts of label, and additional data in tables for each node type."
 	- "Different groups of users fall into usage patterns, which emerges out of the dataset once its coded and analyzed"
 	- "Viewed as a grouped dataset, each neuron cell + its axons/dendrites can be seen as a tree, and there's a set of these trees"
-	- "mentions o frelated symptoms/events over time"
+	- "mentions of related symptoms/events over time"
 
 ## DOESNT_COUNT_AS_DATA. Many people don't feel that what they work with "counts as data"
   - Common refrain while soliciting survey participation at both technical conferences, as well as through deployment across the University
@@ -70,7 +70,7 @@ Codes
   - One Supercomputing survey participant working on hardware design felt that treating circuit diagrams as "data" would be very strange, and perhaps inappropriate
   - "I don't work with datasets or plan to collect data to create one. My work is in architecture design and we don't perform analysis on datasets."
     - https://alex-r-bigelow.github.io/wrangling-survey/Responses.html?viewIndex=1&filters=wpHCgsKkdHlwZcKqVGV4dEZpbHRlcsKkc8SFY8KDwqxyZcSTb25zZVTEhGXCq2Rhc1LEmXDEm8SdwqNrZXnCsURvbWFpblZpZXdQcm_Ej3N0wqV2YWx1ZcOZwo5JIGTEmyd0IHdvcmvFjml0aMWJYXTEpGV0cyDFkCBwbGFuIHRvIGNvbGxlY8WNxKPFmcWlxadjxJjFmGXFnm5lLiBNecWOxZDFkmnFncS0IGFyY2jFlMWtdHXEmMWJxJlpZ8WkxaNkxY7Ft8WKbsWMxaDEkGbFkG3GhW7FgnlzxoLFuMWXxZnEncWcLg
-  - Re: "one person's metadata is another person's data"—many people may not be aware that they are producing data during various activites (such as writing code)
+  - Re: "one person's metadata is another person's data"—many people may not be aware that they are producing data during various activities (such as writing code)
     - A-2's experience reviewing jupyter notebooks: that code is A-2's dataset
 
 ## FOREIGN_TERMINOLOGY. Even very technical people find some data abstraction concepts, language foreign
@@ -117,11 +117,11 @@ Codes
   - The data set itself does not include any media, but interpretations of it are visual in nature. Brain regions are spatial, regardless whether this is captured explicitly in the data set. The data could be illustrated by addition of multidimensional images or 3D meshes when interlinked with Concepts in the graph, though it'd be interesting to consider whether visuospatial imagination counts as a medium as well.
     - https://alex-r-bigelow.github.io/wrangling-survey/Responses.html?viewIndex=9&filters=wpHCgsKkdHlwZcKqVGV4dEZpbHRlcsKkc8SFY8KDwqxyZcSTb25zZVTEhGXCq2Rhc1LEmXDEm8SdwqNrZXnCsE1lZGlhVmlld1Byb8SPc3TCpXZhbHVlw5oBwp1UaGUgxKN0YSDEnXQgaXTEnWxmxYtvxJkgbsS7xZJuY8WCZMWKYW55IG3EscSzLCBidcWRaW7Ej3JwxJjFjXRpxKkgb8WXxZMgYcSYIHZpc3XFgcWexZthdHXEmC4gQnJhxbAgxJhnxbjEnMW-xoDEk8aJxLNsxavGlMW_ZGzEmXMgd8WJdMWJciDGqMaDxZLGpGNhcMaKxJhkIMSJcGxpY8WTbMWmxpLGqMWKxYzFjsWQxo3FiMeBxonFjmNvdWzGtWLFisSNxYLEvcaQxI_HjsWmYWTEssW3xJvFusWXbceMxbfEssWoxJzGlsaGaW1hZ8Wab8aqM0TFp8SZxYnGpMamZW7FnsWyxrluxKzGtXfFk2ggQ8SbY2XGssakxr_FiSBnxpBwaMWrxqjHi2fHv8WTJ8eOx5DFscSQxJnFt25nxqtvIMeKx6TFosaqx7THgMaqxoLGhG_GmsW3x6bHqMaVbsabx5zHinXFscakxKTFvsewxLJ1bcW-x7NlbGwu
 
-## EXPERT_HELP_NEEDED_TO_CHANGE_ABSTRACTIONS. Sometimes more information is needed before transitioning: participents noted they would need to ask an expert (domain expert or vis expert) for help ("help" being more data/details or visualization help).
+## EXPERT_HELP_NEEDED_TO_CHANGE_ABSTRACTIONS. Sometimes more information is needed before transitioning: participants noted they would need to ask an expert (domain expert or vis expert) for help ("help" being more data/details or visualization help).
   - "Could be displayed as a tree, i would hire someone"
   - "I think I would need to discuss this in more detail with a domain expert.  I think they do have conceptual descriptions of ocean currents that would be used through labeling regions, but this data was not provided."
 
-## MORE_DATA_NEEDED_TO_CHANGE_ABSTRACTIONS. Sometimes more information needs to be added to the data before transitioning: participents noted they would need to collect additional data.
+## MORE_DATA_NEEDED_TO_CHANGE_ABSTRACTIONS. Sometimes more information needs to be added to the data before transitioning: participants noted they would need to collect additional data.
   - "We'd need finer-grained labels on the imagery."
   - "I would not transform existing dataset but rather collect additional data, including politicians' images, speech transcripts or recordings, videos, etc. "
   - "I was initially considering just the text components of the patient record for my initial assessment, but images are often an important component of the record for a number of medical specialists."
