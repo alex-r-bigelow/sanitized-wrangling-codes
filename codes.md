@@ -22,7 +22,10 @@ Codes
     - Dataset: regression models made from housing data (Serendipitous discovery after adding the above quote to this code)
 	- Sequences: "I usually think of this dataset as sequences"
 		- dataset is "user interactions with an application I built"
+          - A-3: When is a sequecne a function and when is it not? There are
+            event sequences, lists, etc...
   - I-18's first response, when introduced to the survey, was to say "all my data is functions;" described lists of PDEs
+  - “Data is not just discrete. There are functions and geometric objects as well” (Alternative Dataset Debrief)
 
 ## CODE_AS_DATA. It is possible to consider code to be data
   - Conversation with A-1, I-06, I-07, I-08, I-09, I-10, I-11, I-12 about open science and data sharing; code definitely counts as "data," or at least "metadata," in that it tells you where a given dataset came from. Per I-06: "one person's metadata is another person's data."
@@ -31,10 +34,25 @@ Codes
 
 ## HARD_TO_ISOLATE_DESIGN_FROM_OTHER_CONCERNS. Data design difficult to talk about in isolation from discovery, capture, curation, creation [Muller, CHI 2019]
   - Discussions about data formats within, and more frequently outside of the VIS community, proved very difficult for A-1 to keep focused on design, and quick transitions to other data wrangling considerations, especially provenance were common (specific instances: discussions with I-02, I-03)
+  - "The text components of medical records often contain quantitative measures and features, which however require some pre-processing/structuring. In filling out the data dimensions, I considered that the unstructured data would have been pre-processed somehow and was fairly liberal in how that structure could be realized.” (from Alternative Dataset Reflections) -- they are thinking of part of the processing, not just the raw
+  - “This strikes me as a processing into output formats, rather than input formats” (from Alternative Dataset Reflections)
+  - pre-processed
+    - “Not a generalization but more a bit of context. This data is primarily unstructured text indexed in time (all documents have an associated date), but with some pre-processing other elements could arise and yield a highly heterogeneous data collection. For example, categorical/numerical data is often present in medical text; connections can be traced back to common symptoms/issues over time, or denote a causality relation between distinct symptoms... which is why I outlined the "computer" interpretation as potentially encompassing these elements.” (from Initial Data Abstraction)
+    - "The raw data file is in GPX format which is an XML document, so it is a text-based format that is structured and hierarchical. However, it is commonly imported into data analysis software into a tabular format and can be saved as such in a CSV file, etc. So, it is common to think of the data in terms of how it will be used (tabular) even through the raw file does not store the data this way." (from Initial Data Abstraction)
+  - Alternatives suggested collecting new data rather than transforming
+    - “The data could include media captured by phones to justify the ratings they give.” (from Alternative Media Data Details)
+    - “I would not transform existing dataset but rather collect additional data, including politicians’ images, speech transcripts or recordings, videos, etc.” (from Alternative Dataset Reflections)
+    - “ would hire volunteers to take pictures of the tools and their storage locations and use the images as thumbnails so that users would know what it looked like (e.g. we have 13 hammers and here is a picture of a hammer)., “ (from Alternative Dataset Reflections)
+    - “Use the camera to take pictures of my contacts.” (from Alternative
+      Dataset Reflections)
+    - “I tend to do more machine learning and I use existing datasets and I think of them as static. But thinking about the media that I wish I had made me realize that for a given task, it can be really practical to increase the amount of media gathered.” (from Alternative Dataset Reflections)
+    - “The only possible way I can imagine is that a doctor writes a description of the dataset” (from Alternative Dataset Reflections)
+    - “I'd probably use R to create snapshots of citation type and function distribution over time (real time)” (from Alternative Dataset Reflections)
+
 
 ## INTUITION_ABOUT_NETWORKS. People have "gut feelings," intuition about their data as networks
   - Networks: the data workers seem to have a gut feeling that their data is network/relational but they don’t have a clear understanding of what these relations/hierarchies are (they seem that they are waiting to explore the data and find these out)
-  - From "Initial Network / Hierarchy Data Deails -- If, on second thought, this does not describe the data":
+  - From "Initial Network / Hierarchy Data Details -- If, on second thought, this does not describe the data":
     - "It is possible to have a network and I hope to work with it later. as of now, it doesn't have relationships. hence.."
     - "I don’t think of this in terms of nodes but in terms of a hierarchical dataset."
     - "Taxonomy is hierarchical"
@@ -76,11 +94,12 @@ Codes
 ## FOREIGN_TERMINOLOGY. Even very technical people find some data abstraction concepts, language foreign
   - One Supercomputing survey participant was confused by "item" vs "attribute" terminology. In their response, "tens of items" was selected (initially thinking about table columns), but then selected millions after discussing with A-1, A-3
   - Other generalizations: "A spreadsheet," even though "Tabular" data was an option and we gave them the opportunity to rename it (although they may not have known)!
+  - “I had a hard time, actually, thinking of the dataset as tabular in a way that I had not previously thought of it as tabular (which I believe was the intent of this survey). The questions did not seem to specifically account for this possibility as distinct from considering it as tabular for the first time.” (from Alternative Dataset Debrief) -- A-3: This may be an indicator that the language use is founded in tables, already doesn't fit some datasets
+    - See also "Corpus of text is really hard to describe as "ordinal" or "categorical"" (from Basic Dataset Characteristics)
 
 ## HARD_TO_ISOLATE_FROM_SOFTWARE_ABSTRACTIONS. Raw data abstractions difficult to talk about in isolation from software abstractions
   - Conversations proved very difficult to for A-1 focus on how a person thinks about their data; participants frequently pivoted to talking about abstractions imposed by software that were often only loosely associated with the data model itself (such as git's model of remotes and branches with I-02, or Jupyter's statefulness with I-02 and I-13)
   - Other generalizations: "A spreadsheet," even though "Tabular" data was an option and we gave them the opportunity to rename it (although they may not have known)!
-
 ## SCOPE_CREEP_FEARS. Thinking about alternative data abstractions can provoke fears of scope creep
   - Conversation w/ I-06, I-07, I-08, I-09, I-10, I-11, I-12; all expressed similar concerns, particularly I-06. I-07 related a story about how they had almost forced a collaborator to do a lot of unnecessary manual labor to accomodate the needs of I-07's imposed data abstraction. Although there was consensus that exploring alternative abstractions can be very beneficial for the success of a project, it was cautioned that it also has the potential to cause misalignments in the vision of a collaboration. I-09 remarked that, as a scientific project advances, "you need to start closing doors along the way" (in reference to the many different, interesting questions / perspectives that you *could* explore, but choose not to in order to keep a project's scope reasonable)
 
@@ -90,6 +109,7 @@ Codes
 
 ## AUTOMATIC_DERIVATION_INFERENCE. There are times when the data is derived, and when you assume that you'll need to immediately derive something
   - Conversation between all authors (A-1, A-2, A-3)
+  - "The text components of medical records often contain quantitative measures and features, which however require some pre-processing/structuring. In filling out the data dimensions, I considered that the unstructured data would have been pre-processed somehow and was fairly liberal in how that structure could be realized.” (from Alternative Dataset Reflections) -- they are thinking of part of the processing, nnot just the raw
 
 ## WRANGLING_TOOLS_VERY_DIVERSE. There was a wide distribution of the tools, techniques that people (would) use to wrangle data
   - see tool_counts.csv, tool.html
@@ -125,6 +145,8 @@ Codes
   - "We'd need finer-grained labels on the imagery."
   - "I would not transform existing dataset but rather collect additional data, including politicians' images, speech transcripts or recordings, videos, etc. "
   - "I was initially considering just the text components of the patient record for my initial assessment, but images are often an important component of the record for a number of medical specialists."
+  - Is this really a *need* or a different way about thinking about how to
+    transform the data?
 
 ## EMOTIONS_ABOUT_DATA_ABSTRACTIONS. People have emotions about data abstractions
  - (todo: A-1's evidence)
@@ -132,11 +154,105 @@ Codes
 
 ## META-ABSTRACTIONS_HELP_COMMUNICATION. Meta-abstractions help people communicate at a sufficient level of detail to design a visualization system
   - Experience prototyping vis designs with I-06, I-07, I-08, I-09, I-10, I-11, I-12
+  - “The questions made me think more about "the nature" of this dataset. I had always considered it to be "just tabular" but I realize that there is a hierarchy and geographic data (and a geographic hierarchy) which I hadn't really considered before. As I type this, we could layer in time and sets when considering multiple elections.” (from Initial Dataset Debrief)
+  - New questions
+    - “Yeah, a bit of a stretch with my relatively straightforward dataset, but this exercise prodded me into thinking about my annotations as more of a central player in the overall visualization as opposed to a secondary thought or supporting contextual element.” (from Alternative Dataset Reflections)
+    - “Interesting to think about how forcing the scenario into different datatypes can offer new tasks and perspectives on a specific problem. Curious how this might feed into design studies and other stakeholder-based methods.” (from Alternative Dataset Reflections)
+    -  “I wonder if textual classification of oceans could be fruitful, in the same way that computer vision techniques are used to do textual classification of objects in images.” (from Alternative Dataset Reflections)
+    - “I tend to do more machine learning and I use existing datasets and I think of them as static. But thinking about the media that I wish I had made me realize that for a given task, it can be really practical to increase the amount of media gathered.” (from Alternative Dataset Reflections)
+    - “It's interesting to think how it could be a textual format, for the underlying volume data this is probably not desirable but the neurons traced within the data might be interesting if viewed this way” (from Alternative Dataset Reflections)
+    - “I was initially considering just the text components of the patient record for my initial assessment, but images are often an important component of the record for a number of medical specialists.” (from Alternative Dataset Reflections)
+    - “Having media data would enable a richer set of analysis but the analysis would have to be a lot more complex.” (from Alternative Dataset Reflections)
+    - “This was fun. Really made me think outside the box about my tabular data. Really makes me want to be creative with my data representations.” (from Alternative Dataset Debrief)
 
 ## SHOWING_RAW_DATA_HELPS_COMMUNICATION. Validated: showing real data (such as showing a spreadsheet in Excel) helps people communicate effectively about abstractions
   - Conversation with I-03
   - Conversation with I-19
   - Experience prototyping vis designs with I-06, I-07, I-08, I-09, I-10, I-11, I-12
+
+## DATASET_A_COMPLEX_AND_EVOLVING_FORM. Most datasets did not fit in one category and people talked about not just the raw data, but derived values,  metadata, or even "multiple datasets" (hierarchical datasets?) as well
+  - multiple datasets
+    - "Data is often spread across multiple datasets which can have a variety of formats. Linking or foreign key relationships are thus an important factor for how the data is represented.” (from Initial Data Abstraction)
+    - “Multimodal data? Dataset containing multiple data types.” (from Initial
+    Data Asbraction)
+  - pre-processed/processed along the way
+    - “Not a generalization but more a bit of context. This data is primarily unstructured text indexed in time (all documents have an associated date), but with some pre-processing other elements could arise and yield a highly heterogeneous data collection. For example, categorical/numerical data is often present in medical text; connections can be traced back to common symptoms/issues over time, or denote a causality relation between distinct symptoms... which is why I outlined the "computer" interpretation as potentially encompassing these elements.” (from Initial Data Abstraction)
+    - "The raw data file is in GPX format which is an XML document, so it is a text-based format that is structured and hierarchical. However, it is commonly imported into data analysis software into a tabular format and can be saved as such in a CSV file, etc. So, it is common to think of the data in terms of how it will be used (tabular) even through the raw file does not store the data this way." (from Initial Data Abstraction)
+    - "Originally, i was thinking about how for for analysis sometimes we decompose the domain into a hierarchal representation, but this is significantly further in the analysis pipeline.” (from Initial Network Data Details)
+    - "I was thinking of a derivative of this dataset -- basically, after you perform named entity recognition, the derivative dataset might be conceptualized of as a network." (from Initial Data Abstraction)
+    - “One thing is it seems not easy to describe these things easily. I also sometimes feel should I talk about my raw data or formatted data. Although both are in tabular format. I also consider about wide-narrow tabular structure as well, probably it does not make sense, but sort of thinking about that somehow.” (from Initial Dataset Debrief)
+  - metadata as data
+    - "It’s tabular insofar as I’m tagging each observation with dates and other metadata; it’s useful to sort on that attribute" (from Initial Tabular Data Details)
+    - “Metadata is a large component of earth science data but I'm uncertain if I should have included it into this survey. I kept things simple, but may have perhaps been too simple.” (from Initial Dataset Debrief)
+    - “I think it could be done, a 3D volume is in some sense just a set of stacked 2D tables, but I'm not sure that is what this question is really getting at. I'm not sure if it would make sense to flatten volume data into a tabular form, I could believe that there are some derived quantities or meta data that would be useful to view this way, but not sure if transforming raw volume data would be that useful. I think that is a larger interesting question about this project -- to what extent does it connect with volume data or 3D simulation data, imaging, the sort of things that are common in sci vis?” (from Alternative Dataset Reflections)
+  - links to data in the data
+    - “There are links to media in the dataset, but the media themselves are not directly stored in the dataset.” (from Initial Media Data Details)
+  -  “the data in this way is more complicated to describe, but in the real world is more offen.” (from Alternative Dataset Reflections)
+  -  “Oftentimes, for certain types of time-series meteorological data is collected from one sensor that logs three values at one time stamp: min, max, avg. This does provoke an idea that data at certain time steps are related and can be related in a "tree like structure" but it also causes problems in visualizing the data because metadata is encoded along with data. This may muddle the purity of visualizing the data by itself.” (from Alternative Dataset Reflections) -- note the use of the word "muddle"
+  - Counts of how many people listed their data under multiple forms
+    - Media was the largest alternative category --- was it because it was the
+      only choice remaining for some participants?
+
+## LATENT_WRANGLING_OR_ABSTRACTION. This may be related to "HARD_TO_ISOLATE". Even before the alternative abstractions, people were discussing how they could see data in other forms.
+  - “I find the separation of hierarchies and groupings to be a bit problematic for this domain. Many codes, such as diagnosis codes, exist in a hierarchy (defined by metadata). However it is quite common to refer to areas of this hierarchy as groupings.” (Initial Data Abstraction) -- This may also tie into how simply asking brought forth this insight (see META-ABSTRACTIONS_HELP_COMMUNICATION)
+  - This is ESPECIALLY true of Grouping:
+    - Through Analysis
+      - “I have to group it manually, it is not naturally grouped.” (from
+        Initial Grouped Data Details)
+      - “because the clusters are not well defined without the correct visualization.” (from Initial Grouped Data Details)
+      - “I expect the output to be logically grouped. But I don't think there's a clustering attribute” (from Initial Grouped Data Details)
+      - “Again, groups are the result of user analysis” (from Initial Grouped
+        Data Details)
+      - “Different groups of users fall into usage patterns, which emerges out of the dataset once its coded and analyzed” (from Initial Grouped Data Details)
+      - “I use color coding for event type (e.g. work event, social event). However, the colors themselves aren't a characteristic of the data, the groups are. I use color for my own organization.” (from Initial MEDIA Data Details)
+      - “Having the ability to wrangle and identify sets would be helpful at
+        the initial stages. I had to hand collect this dataset and identify
+those sets.” (from Initial Dataset Debrief) 
+    - Naturally Arising Through Categorical Attributes
+      - “ Because it’s data about inhabitants of a city, there are definitely groups that are latent; college kids, young families, various neighborhoods. I wonder if there are some inherent topics that exist in the data.” (from Initial Grouped Data Details)
+      - “Thought of dimension as equal to group.” (from Initial Grouped Data
+        Details)
+      - “Sets of nodes can be derived from domain knowledge, parts of label, and additional data in tables for each node type.” (from Initial Grouped Data Details) 
+      - “Categorically” (from Initial Grouped Data Details)
+      - “Grouped by certain attribute similarity” (from Initial Grouped Data
+        Details)
+      - “political views, demographics” (from Initial Grouped Data Details)
+      - “Conditions are coded using ICD (International Classification of Diseases), which is divided in chapters (groups), such as "diseases related to the respiratory system" or other examples like renal or cardiovascular systems.” (from Initial Grouped Data Details)
+    - Hierarchies as Groups
+      - “Data is grouped in a hierarchy: Building have devices. Devices have sensors.” (from Initial Grouped Data Details)
+      - “Viewed as a grouped dataset, each neuron cell + its axons/dendrites can be seen as a tree, and there's a set of these trees” (from Initial Grouped Data Details)
+    - Question: How much of this is from VIS participants?
+  - Some of what we consider categorical data is also thought of as text data
+    - “there's no documents, its just data attributes and at max a short phrase” (from Initial Textual Data Details)
+    - “The observations themselves are not textual in nature, just the categories” (from Initial Textual Data Details)
+    - “Text includes information about condition, demographics, etc.” (from
+      Innitial Textual Data Details)
+  - Labels as Text Data
+    - “text is label of nodes and additional data about nodes from web or node tables” (from Initial Textual Data Details)
+    - “the data items have labels” (from Initial Textual Data Details)
+  - Annotations as Text Data
+    - "For each (most) images, there are pathologist annotations (formal but technical natural language).” (from Initial Textual Data Details)  
+    - "Annotation titles describing the nature of the excerpts” (from Initial
+      Textual Data Details)
+  - Metadata as Text Data
+    - “Metadata for the satasets are textual, but the datasets themselves are image volumes” (from Initial Textual Data Details)
+  - “The data set itself does not include any media, but interpretations of it are visual in nature. Brain regions are spatial, regardless whether this is captured explicitly in the data set. The data could be illustrated by addition of multidimensional images or 3D meshes when interlinked with Concepts in the graph, though it'd be interesting to consider whether visuospatial imagination counts as a medium as well.” (from Initial Media Data Details)
+  - A-3: but are these alternative abstractions brought on by the survey or
+    are they different interpretations of what is meant by Textual or Grouped?
+
+
+## Other interesting tidbits not yet coded
+  - Half of Tabular respondents expect empty cells
+  - Some reported datasets with millions of tables
+   - often when there's a temporal component
+   - some were thinking of image data in terms of rows or columns 
+  - What is trajectory data?
+    - “I wouldn't precisely reset it to "never". The data represents trajectories, which are a network.” (from Initial Network Data Details)
+  - People had a fairly event spread of alternative being difficult to not difficult, useful to not useful, accurate to inaccurate
+    - 1/3 thought the activity was useful
+      - “It is hard to think of datasets as a network or hierarchical as I've never thought of it like that before” (from Alternative Dataset Reflections)
+      - More people who were asked to think about their data as text ornetworks expressed difficulty and said they had fewer plans to reshape
+    - Many 'neither agree or disagree' answers
 
 Categories
 ==========
