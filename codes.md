@@ -165,6 +165,8 @@ Codes
 
 ## META-ABSTRACTIONS_HELP_COMMUNICATION. Meta-abstractions help people communicate at a sufficient level of detail to design a visualization system
   - Experience prototyping vis designs with I-06, I-07, I-08, I-09, I-10, I-11, I-12
+
+## META-ABSTRACTIONS_AID_REFLECTION. Meta-abstractions help people discover latent data abstractions
   - “The questions made me think more about "the nature" of this dataset. I had always considered it to be "just tabular" but I realize that there is a hierarchy and geographic data (and a geographic hierarchy) which I hadn't really considered before. As I type this, we could layer in time and sets when considering multiple elections.” (from Initial Dataset Debrief)
   - New questions
     - “Yeah, a bit of a stretch with my relatively straightforward dataset, but this exercise prodded me into thinking about my annotations as more of a central player in the overall visualization as opposed to a secondary thought or supporting contextual element.” (from Alternative Dataset Reflections)
@@ -265,23 +267,26 @@ those sets.” (from Initial Dataset Debrief)
   - People had a fairly event spread of alternative being difficult to not difficult, useful to not useful, accurate to inaccurate
     - 1/3 thought the activity was useful
       - “It is hard to think of datasets as a network or hierarchical as I've never thought of it like that before” (from Alternative Dataset Reflections)
-      - More people who were asked to think about their data as text ornetworks expressed difficulty and said they had fewer plans to reshape
+      - More people who were asked to think about their data as text or networks expressed difficulty and said they had fewer plans to reshape
     - Many 'neither agree or disagree' answers
 
 Categories
 ==========
-## Data abstraction doesn't matter\*... in isolation
-\* (TODO: A-3's insight)
+
+## The visualization community identifies data abstractions for its own transferability needs, but the process of identifying an abstraction is an intervention with far-reaching effects
+Collaborations with data workers beyond the visualization research community stand to benefit---and can be harmed---by the way that we introduce, articulate, and explore data abstractions
 
 Codes:
+  - INTUITION_ABOUT_NETWORKS
+  - INTUITION_ABOUT_GROUPS
   - HARD_TO_ISOLATE_DESIGN_FROM_OTHER_CONCERNS
   - DOESNT_COUNT_AS_DATA
   - FOREIGN_TERMINOLOGY
   - HARD_TO_ISOLATE_FROM_SOFTWARE_ABSTRACTIONS
   - SCOPE_CREEP_FEARS
 
-## Latent data abstractions\* are very common
-\* Definition: A meaningful, useful abstraction of the data is possible yet not fully communicated, or even thought out
+## Latent data abstractions are very common
+Definition: A meaningful, useful abstraction of the data is possible yet not fully communicated, or even thought out
 
 Codes:
   - MANY_VERY_INACCURATE_RESPONSES
@@ -292,16 +297,10 @@ Codes:
   - DOESNT_COUNT_AS_DATA
   - VARIATION_IN_HIERARCHY_PERSPECTIVES
   - LATENT_WRANGLING_OR_ABSTRACTION
-
-## Visualization community meta-abstractions validated\*
-\* Threat to validity: would this thing be true with different abstraction categories?
-
-Codes:
-  - INTUITION_ABOUT_NETWORKS
-  - INTUITION_ABOUT_GROUPS
+  - META-ABSTRACTIONS_AID_REFLECTION
 
 ## People (non-VIS people?) are more willing explore alternative data abstractions when there is not a direct mapping between familiar software and the format of the raw data
-\* Otherwise they default to familiar software, and may resist attempts to discover latent abstractions
+Otherwise they default to familiar software, and may resist attempts to discover latent abstractions
 
 Codes:
   - HARD_TO_ISOLATE_DESIGN_FROM_OTHER_CONCERNS
@@ -313,7 +312,8 @@ Codes:
   - EXPERT_HELP_NEEDED_TO_CHANGE_ABSTRACTIONS
   - EMOTIONS_ABOUT_DATA_ABSTRACTIONS
 
-## The juxtaposition of real data and a meta-abstraction (even if both are deeply flawed) helps to focus communication at a level of detail that includes actionable information
+## Like real data, introducing a meta-abstraction\* helps to focus reflection and communication about data abstractions at a level of detail that includes actionable information
+Both real data and the meta-abstraction can be deeply flawed; in fact, some flaws (such as a missing meta-abstraction category) can be particularly helpful in provoking focused feedback. However, some meta-abstraction flaws (such as a level of granularity that is a poor fit for the data worker's expertise) can limit its effectiveness
 
 Codes:
   - MISSING_FUNCTION_CATEGORY
@@ -323,4 +323,5 @@ Codes:
   - EXPERT_HELP_NEEDED_TO_CHANGE_ABSTRACTIONS
   - MORE_DATA_NEEDED_TO_CHANGE_ABSTRACTIONS
   - META-ABSTRACTIONS_HELP_COMMUNICATION
+  - META-ABSTRACTIONS_AID_REFLECTION
   - SHOWING_RAW_DATA_HELPS_COMMUNICATION
