@@ -112,6 +112,8 @@ Codes
 ## HARD_TO_ISOLATE_FROM_SOFTWARE_ABSTRACTIONS. Raw data abstractions difficult to talk about in isolation from software abstractions
   - Conversations proved very difficult to for A-1 focus on how a person thinks about their data; participants frequently pivoted to talking about abstractions imposed by software that were often only loosely associated with the data model itself (such as git's model of remotes and branches with I-02, or Jupyter's statefulness with I-02 and I-13)
   - Other generalizations: "A spreadsheet," even though "Tabular" data was an option and we gave them the opportunity to rename it (although they may not have known)!
+  - Merged from prior RELIANCE_ON_ABSTRACTIONS_FROM_SOFTWARE code: Validated: People tend to turn to data abstractions that match some existing prior experience with software
+    - Discussion between A-1, A-2, reflecting on codes 5, 10, 14, 16
 
 ## SCOPE_CREEP_FEARS. Thinking about alternative data abstractions can provoke fears of scope creep
   - Conversation w/ I-06, I-07, I-08, I-09, I-10, I-11, I-12; all expressed similar concerns, particularly I-06. I-07 related a story about how they had almost forced a collaborator to do a lot of unnecessary manual labor to accomodate the needs of I-07's imposed data abstraction. Although there was consensus that exploring alternative abstractions can be very beneficial for the success of a project, it was cautioned that it also has the potential to cause misalignments in the vision of a collaboration. I-09 remarked that, as a scientific project advances, "you need to start closing doors along the way" (in reference to the many different, interesting questions / perspectives that you *could* explore, but choose not to in order to keep a project's scope reasonable)
@@ -132,9 +134,6 @@ Codes
   - "Cluster into connected components"
   - "Morse Smale Complex"
   - "I would build an adjacency matrix."
-
-## RELIANCE_ON_ABSTRACTIONS_FROM_SOFTWARE. Validated: People tend to turn to data abstractions that match some existing prior experience with software
-  - Discussion between A-1, A-2, reflecting on codes 5, 10, 14, 16
 
 ## MEDIA_TOO_UNDEFINED. "Media" as a category had a less-well-defined mental model, resulting in a space with too little structure for participants to map their data crisply when forced to think of their data as "media"
   - a common response was to use some sort of web animation (e.g. JavaScript or d3) and then use screen-capturing to get images and video of the data.
@@ -278,44 +277,68 @@ Collaborations with data workers beyond the visualization research community sta
 
 Codes:
   - INTUITION_ABOUT_NETWORKS
+    - Validates that the network abstraction that the visualization community has identified is both useful and accessible to data workers outside of the community
   - INTUITION_ABOUT_GROUPS
-  - HARD_TO_ISOLATE_DESIGN_FROM_OTHER_CONCERNS
+    - Validates that the set, cluster, and other group-based abstractions that the visualization community has identified are both useful and accessible to data workers outside of the community
   - DOESNT_COUNT_AS_DATA
+    - Shows that there is a disconnect between what visualization people consider to be data, and what data workers in general consider to be data. Introducing a visualization perspective is an intervention.
   - FOREIGN_TERMINOLOGY
+    - Shows that there is a disconnect between how visualization people talk about data, and how data workers in general talk about data. Introducing a visualization perspective is an intervention.
+  - HARD_TO_ISOLATE_DESIGN_FROM_OTHER_CONCERNS
+    - Shows that influencing the design of a worker's data abstraction can have far-reaching theoretical effects, including impacts on data discovery, capture, curation, creation
   - HARD_TO_ISOLATE_FROM_SOFTWARE_ABSTRACTIONS
+    - Shows that influencing the design of a worker's data abstraction can have far-reaching practical effects, including disruptions in workflows and changes to the software that data workers use
   - SCOPE_CREEP_FEARS
+    - Shows that data workers are often cognizant of the impacts that changes to the design of their abstraction will have, including considerations that they may or may not be able to articulate in detail
 
 ## Latent data abstractions are very common
-Definition: A meaningful, useful abstraction of the data is possible yet not fully communicated, or even thought out
+Definition: A meaningful, useful abstraction of the data is possible yet not fully considered, communicated, or realized inside a computer
 
 Codes:
   - MANY_VERY_INACCURATE_RESPONSES
-  - MISSING_FUNCTION_CATEGORY
-  - MISSING_CODE_CATEGORY
-  - INTUITION_ABOUT_NETWORKS
-  - INTUITION_ABOUT_GROUPS
-  - DOESNT_COUNT_AS_DATA
-  - VARIATION_IN_HIERARCHY_PERSPECTIVES
+    - At least initially, raw data can not be designed in such a way as to anticipate other abstractions that may be needed or useful
   - LATENT_WRANGLING_OR_ABSTRACTION
+    - Shows that data workers are often aware of meaningful, useful abstractions that they can communicate about without prompting, even though these abstractions are not fully realized in a computer
+  - INTUITION_ABOUT_NETWORKS
+    - Shows that other meaningful, useful abstractions (e.g. networks) are possible, even though the raw data may not be formatted that way
+  - INTUITION_ABOUT_GROUPS
+    - Shows that other meaningful, useful abstractions (e.g. sets, clusters, groupings) are possible, even though the raw data may not be formatted that way
+  - DOESNT_COUNT_AS_DATA
+    - Suggests that visualization researchers are aware of abstractions that data workers may not have considered. Communication to introduce the abstraction is necessary.
+  - MISSING_FUNCTION_CATEGORY
+    - Suggests that data workers may be aware of abstractions that visualization researchers have not considered. Communication to introduce the abstraction is necessary.
+  - MISSING_CODE_CATEGORY
+    - Suggests that data workers may be aware of abstractions that visualization researchers have not considered. Communication to introduce the abstraction is necessary.
+  - VARIATION_IN_HIERARCHY_PERSPECTIVES
+    - Suggests that data workers and visualization researchers may consider the same abstraction differently. Communication to clarify the details of an abstraction is necessary.
   - META-ABSTRACTIONS_AID_REFLECTION
+    - Meta-abstractions often introduce meaningful, useful abstractions to data workers that they had not considered. Meta-abstractions often fail to contain meaningful, useful abstractions that visualization researchers had not considered.
 
-## People (non-VIS people?) are more willing explore alternative data abstractions when there is not a direct mapping between familiar software and the format of the raw data
-Otherwise they default to familiar software, and may resist attempts to discover latent abstractions
+## Data workers are less willing to seek latent data abstractions when the design of an existing abstraction is already fundamental to their workflow
+When there exists a direct mapping between familiar software and the format of the raw data, efforts to introduce a new abstraction will likely be met with resistance
 
 Codes:
-  - HARD_TO_ISOLATE_DESIGN_FROM_OTHER_CONCERNS
   - HARD_TO_ISOLATE_FROM_SOFTWARE_ABSTRACTIONS
-  - SCOPE_CREEP_FEARS
-  - WRANGLING_TOOLS_VERY_DIVERSE
+    - Shows that there is often a tight coupling in how data workers think about their abstractions, and the software that they are familiar with. Changes to the design of an abstraction incurs a cost in learning new software.
   - REFERENCED_TECHNIQUES_INSTEAD_OF_TOOLS
-  - RELIANCE_ON_ABSTRACTIONS_FROM_SOFTWARE
+    - Shows that there is often a tight coupling in how data workers think about software, and the higher-level abstractions associated with that software, to the point that people often refer to them interchangeably.
+  - HARD_TO_ISOLATE_DESIGN_FROM_OTHER_CONCERNS
+    - Shows that there is often a tight coupling between the design of an abstraction and its discovery, capture, curation, and creation. Changes to the design of an abstraction incurs a cost in the disruptions that it causes to the rest of a worker's workflow.
+  - WRANGLING_TOOLS_VERY_DIVERSE
+    - Validates the tight coupling between abstractions and software, and the coupling between abstractions and workflows, in that the bespoke needs that arise from the combinatoric expansion of diverse abstractions and diverse workflows naturally leads to a very diverse software ecosystem.
   - EXPERT_HELP_NEEDED_TO_CHANGE_ABSTRACTIONS
+    - Shows the extent to which the design of a data abstraction can be fundamental to a workflow, in that a change to the abstraction would necessitate expert, outside help.
+  - SCOPE_CREEP_FEARS
+    - Validates that the costs incurred by changing the design of an abstraction are real
   - EMOTIONS_ABOUT_DATA_ABSTRACTIONS
+    - Validates that the costs incurred by changing the design of an abstraction are real
 
 ## Like real data, introducing a meta-abstraction\* helps to focus reflection and communication about data abstractions at a level of detail that includes actionable information
 Both real data and the meta-abstraction can be deeply flawed; in fact, some flaws (such as a missing meta-abstraction category) can be particularly helpful in provoking focused feedback. However, some meta-abstraction flaws (such as a level of granularity that is a poor fit for the data worker's expertise) can limit its effectiveness
 
 Codes:
+  - SHOWING_RAW_DATA_HELPS_COMMUNICATION
+    - Validates the known pitfall [Sedlmair, BELIV 2012] that lack of access to real data can doom a collaboration, while also validating that a culture of data review [Williams, VIS 2019], that is careful to emphasize good communication about the data abstraction, can compensate for the lack of access to real data
   - MISSING_FUNCTION_CATEGORY
   - MISSING_CODE_CATEGORY
   - VARIATION_IN_HIERARCHY_PERSPECTIVES
@@ -324,4 +347,3 @@ Codes:
   - MORE_DATA_NEEDED_TO_CHANGE_ABSTRACTIONS
   - META-ABSTRACTIONS_HELP_COMMUNICATION
   - META-ABSTRACTIONS_AID_REFLECTION
-  - SHOWING_RAW_DATA_HELPS_COMMUNICATION
