@@ -328,22 +328,32 @@ Codes:
     - Validates the tight coupling between abstractions and software, and the coupling between abstractions and workflows, in that the bespoke needs that arise from the combinatoric expansion of diverse abstractions and diverse workflows naturally leads to a very diverse software ecosystem.
   - EXPERT_HELP_NEEDED_TO_CHANGE_ABSTRACTIONS
     - Shows the extent to which the design of a data abstraction can be fundamental to a workflow, in that a change to the abstraction would necessitate expert, outside help.
+  - MORE_DATA_NEEDED_TO_CHANGE_ABSTRACTIONS
+    - Validates that the costs incurred by changing the design of an abstraction are real
   - SCOPE_CREEP_FEARS
     - Validates that the costs incurred by changing the design of an abstraction are real
   - EMOTIONS_ABOUT_DATA_ABSTRACTIONS
     - Validates that the costs incurred by changing the design of an abstraction are real
 
-## Like real data, introducing a meta-abstraction\* helps to focus reflection and communication about data abstractions at a level of detail that includes actionable information
+## Like access to real data, introducing a meta-abstraction\* helps to focus reflection and communication about data abstractions at a level of detail that includes actionable information
 Both real data and the meta-abstraction can be deeply flawed; in fact, some flaws (such as a missing meta-abstraction category) can be particularly helpful in provoking focused feedback. However, some meta-abstraction flaws (such as a level of granularity that is a poor fit for the data worker's expertise) can limit its effectiveness
 
 Codes:
   - SHOWING_RAW_DATA_HELPS_COMMUNICATION
-    - Validates the known pitfall [Sedlmair, BELIV 2012] that lack of access to real data can doom a collaboration, while also validating that a culture of data review [Williams, VIS 2019], that is careful to emphasize good communication about the data abstraction, can compensate for the lack of access to real data
-  - MISSING_FUNCTION_CATEGORY
-  - MISSING_CODE_CATEGORY
-  - VARIATION_IN_HIERARCHY_PERSPECTIVES
-  - MEDIA_TOO_UNDEFINED
-  - EXPERT_HELP_NEEDED_TO_CHANGE_ABSTRACTIONS
-  - MORE_DATA_NEEDED_TO_CHANGE_ABSTRACTIONS
+    - Validates the known pitfall [Sedlmair, BELIV 2012] that lack of access to real data can doom a design study collaboration, because visualization researchers are less likely to be able to have enough actionable information to articulate an accurate data abstraction. This also validates that a culture of data review [Williams, VIS 2019], that is careful to emphasize good communication about the data abstraction, can compensate for the lack of access to real data because the detailed abstraction is a joint objective that all parties have a stake in.
   - META-ABSTRACTIONS_HELP_COMMUNICATION
+    - Shows that introducing a meta-abstraction can aid communication the other way, helping data workers understand what a visualization researcher is looking for, and to communicate details that might otherwise be left unspoken.
   - META-ABSTRACTIONS_AID_REFLECTION
+    - Shows that introducing a meta-abstraction can expose data workers to latent abstractions that they may not have considered
+  - MISSING_FUNCTION_CATEGORY
+    - Shows how a flawed meta-abstraction can serve as an aid to communication, in that it can prompt targeted feedback about missing abstraction categories
+  - MISSING_CODE_CATEGORY
+    - Shows how a flawed meta-abstraction can serve as an aid to communication, in that it can prompt targeted feedback about missing abstraction categories
+  - VARIATION_IN_HIERARCHY_PERSPECTIVES
+    - Shows how a flawed meta-abstraction can serve as an aid to communication, in that it can prompt targeted feedback about how the details of an abstraction category are a poor fit
+  - MEDIA_TOO_UNDEFINED
+    - Suggests that the benefits of meta-abstraction flaws can be limited by a poor fit between the granularity of the meta-abstraction and the data worker's specific expertise
+  - EXPERT_HELP_NEEDED_TO_CHANGE_ABSTRACTIONS
+    -
+  - MORE_DATA_NEEDED_TO_CHANGE_ABSTRACTIONS
+    -
