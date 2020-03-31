@@ -303,6 +303,8 @@ Codes:
     - Shows that other meaningful, useful abstractions (e.g. networks) are possible, even though the raw data may not be formatted that way
   - INTUITION_ABOUT_GROUPS
     - Shows that other meaningful, useful abstractions (e.g. sets, clusters, groupings) are possible, even though the raw data may not be formatted that way
+  - DATASET_A_COMPLEX_AND_EVOLVING_FORM
+    - Validates a known [Sedlmair, BELIV 2012; Bigelow AVI 2014] phenomenon that data rarely has a "native" abstraction, even if predominant file formats exist; abstractions must be designed
   - DOESNT_COUNT_AS_DATA
     - Suggests that visualization researchers are aware of abstractions that data workers may not have considered. Communication to introduce the abstraction is necessary.
   - MISSING_FUNCTION_CATEGORY
@@ -353,9 +355,13 @@ Codes:
     - Shows how a flawed typology can serve as an aid to communication, in that it can prompt targeted feedback about missing abstraction categories
   - VARIATION_IN_HIERARCHY_PERSPECTIVES
     - Shows how a flawed typology can serve as an aid to communication, in that it can prompt targeted feedback about how the details of an abstraction category are a poor fit
+  - DATASET_A_COMPLEX_AND_EVOLVING_FORM
+    - Shows how a flawed typology can serve as an aid to communication, in that it can prompt targeted feedback about how a typology is subdivided, and the ways that a specific abstraction fits or partially fits more than one abstraction category
   - MEDIA_TOO_UNDEFINED
     - Suggests that the benefits of typology flaws can be limited by a poor fit between the granularity of the typology and the data worker's specific expertise
+
+## Guidance about how to best help data workers navigate wrangling their abstractions to a new format (in terms of a design study, and/or in terms of writing wrangling software)?
   - EXPERT_HELP_NEEDED_TO_CHANGE_ABSTRACTIONS
-    -
+    - Suggests that, although latent abstractions
   - MORE_DATA_NEEDED_TO_CHANGE_ABSTRACTIONS
     -
