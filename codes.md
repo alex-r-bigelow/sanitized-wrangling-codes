@@ -162,10 +162,10 @@ Codes
  - (todo: A-1's evidence)
  - A-1, A-2 discussion: Abstractions are personalized / subjective / contextual; you have to remember the ecosystem of how the data was created, who it's going to impact, who are the subjects
 
-## META-ABSTRACTIONS_HELP_COMMUNICATION. Meta-abstractions help people communicate at a sufficient level of detail to design a visualization system
+## TYPOLOGIES_HELP_COMMUNICATION. Data abstraction typologies help people communicate at a sufficient level of detail to design a visualization system
   - Experience prototyping vis designs with I-06, I-07, I-08, I-09, I-10, I-11, I-12
 
-## META-ABSTRACTIONS_AID_REFLECTION. Meta-abstractions help people discover latent data abstractions
+## TYPOLOGIES_AID_REFLECTION. Data abstraction typologies help people discover latent data abstractions
   - “The questions made me think more about "the nature" of this dataset. I had always considered it to be "just tabular" but I realize that there is a hierarchy and geographic data (and a geographic hierarchy) which I hadn't really considered before. As I type this, we could layer in time and sets when considering multiple elections.” (from Initial Dataset Debrief)
   - New questions
     - “Yeah, a bit of a stretch with my relatively straightforward dataset, but this exercise prodded me into thinking about my annotations as more of a central player in the overall visualization as opposed to a secondary thought or supporting contextual element.” (from Alternative Dataset Reflections)
@@ -206,7 +206,7 @@ Codes
       only choice remaining for some participants?
 
 ## LATENT_WRANGLING_OR_ABSTRACTION. This may be related to "HARD_TO_ISOLATE". Even before the alternative abstractions, people were discussing how they could see data in other forms.
-  - “I find the separation of hierarchies and groupings to be a bit problematic for this domain. Many codes, such as diagnosis codes, exist in a hierarchy (defined by metadata). However it is quite common to refer to areas of this hierarchy as groupings.” (Initial Data Abstraction) -- This may also tie into how simply asking brought forth this insight (see META-ABSTRACTIONS_HELP_COMMUNICATION)
+  - “I find the separation of hierarchies and groupings to be a bit problematic for this domain. Many codes, such as diagnosis codes, exist in a hierarchy (defined by metadata). However it is quite common to refer to areas of this hierarchy as groupings.” (Initial Data Abstraction) -- This may also tie into how simply asking brought forth this insight (see TYPOLOGIES_HELP_COMMUNICATION)
   - This is ESPECIALLY true of Grouping:
     - Through Analysis
       - “I have to group it manually, it is not naturally grouped.” (from
@@ -292,7 +292,7 @@ Codes:
     - Shows that data workers are often cognizant of the impacts that changes to the design of their abstraction will have, including considerations that they may or may not be able to articulate in detail
 
 ## Latent data abstractions are very common
-Definition: A meaningful, useful abstraction of the data is possible yet not fully considered, communicated, or realized inside a computer
+Definition: The extent to which a meaningful, useful abstraction of the data is undiscovered; it has yet to be fully elucidated, communicated, documented, and formatted. A data abstraction becomes less latent as coherent details are identified, as its details are spoken or written, and as its artifacts in a computer are actualized into relevant forms.
 
 Codes:
   - MANY_VERY_INACCURATE_RESPONSES
@@ -311,8 +311,8 @@ Codes:
     - Suggests that data workers may be aware of abstractions that visualization researchers have not considered. Communication to introduce the abstraction is necessary.
   - VARIATION_IN_HIERARCHY_PERSPECTIVES
     - Suggests that data workers and visualization researchers may consider the same abstraction differently. Communication to clarify the details of an abstraction is necessary.
-  - META-ABSTRACTIONS_AID_REFLECTION
-    - Meta-abstractions often introduce meaningful, useful abstractions to data workers that they had not considered. Meta-abstractions often fail to contain meaningful, useful abstractions that visualization researchers had not considered.
+  - TYPOLOGIES_AID_REFLECTION
+    - Typologies often introduce meaningful, useful abstractions to data workers that they had not considered. Typologies often fail to contain meaningful, useful abstractions that visualization researchers had not considered.
 
 ## Data workers are less willing to seek latent data abstractions when the design of an existing abstraction is already fundamental to their workflow
 When there exists a direct mapping between familiar software and the format of the raw data, efforts to introduce a new abstraction will likely be met with resistance
@@ -335,24 +335,26 @@ Codes:
   - EMOTIONS_ABOUT_DATA_ABSTRACTIONS
     - Validates that the costs incurred by changing the design of an abstraction are real
 
-## Like access to real data, introducing a meta-abstraction\* helps to focus reflection and communication about data abstractions at a level of detail that includes actionable information
-Both real data and the meta-abstraction can be deeply flawed; in fact, some flaws (such as a missing meta-abstraction category) can be particularly helpful in provoking focused feedback. However, some meta-abstraction flaws (such as a level of granularity that is a poor fit for the data worker's expertise) can limit its effectiveness
+## Like access to real data, introducing a data abstraction typology\* helps to focus reflection and communication about data abstractions at a level of detail that includes actionable information
+Definition: A classification of the space of possible data abstractions and/or data wrangling operations.
+
+Both real data and the typology can be deeply flawed; in fact, some flaws (such as a missing typology category) can be particularly helpful in provoking focused feedback. However, some typology flaws (such as a level of granularity that is a poor fit for the data worker's expertise) can limit its effectiveness
 
 Codes:
   - SHOWING_RAW_DATA_HELPS_COMMUNICATION
     - Validates the known pitfall [Sedlmair, BELIV 2012] that lack of access to real data can doom a design study collaboration, because visualization researchers are less likely to be able to have enough actionable information to articulate an accurate data abstraction. This also validates that a culture of data review [Williams, VIS 2019], that is careful to emphasize good communication about the data abstraction, can compensate for the lack of access to real data because the detailed abstraction is a joint objective that all parties have a stake in.
-  - META-ABSTRACTIONS_HELP_COMMUNICATION
-    - Shows that introducing a meta-abstraction can aid communication the other way, helping data workers understand what a visualization researcher is looking for, and to communicate details that might otherwise be left unspoken.
-  - META-ABSTRACTIONS_AID_REFLECTION
-    - Shows that introducing a meta-abstraction can expose data workers to latent abstractions that they may not have considered
+  - TYPOLOGIES_HELP_COMMUNICATION
+    - Shows that introducing a typology can aid communication the other way, helping data workers understand what a visualization researcher is looking for, and to communicate details that might otherwise be left unspoken.
+  - TYPOLOGIES_AID_REFLECTION
+    - Shows that introducing a typology can expose data workers to latent abstractions that they may not have considered
   - MISSING_FUNCTION_CATEGORY
-    - Shows how a flawed meta-abstraction can serve as an aid to communication, in that it can prompt targeted feedback about missing abstraction categories
+    - Shows how a flawed typology can serve as an aid to communication, in that it can prompt targeted feedback about missing abstraction categories
   - MISSING_CODE_CATEGORY
-    - Shows how a flawed meta-abstraction can serve as an aid to communication, in that it can prompt targeted feedback about missing abstraction categories
+    - Shows how a flawed typology can serve as an aid to communication, in that it can prompt targeted feedback about missing abstraction categories
   - VARIATION_IN_HIERARCHY_PERSPECTIVES
-    - Shows how a flawed meta-abstraction can serve as an aid to communication, in that it can prompt targeted feedback about how the details of an abstraction category are a poor fit
+    - Shows how a flawed typology can serve as an aid to communication, in that it can prompt targeted feedback about how the details of an abstraction category are a poor fit
   - MEDIA_TOO_UNDEFINED
-    - Suggests that the benefits of meta-abstraction flaws can be limited by a poor fit between the granularity of the meta-abstraction and the data worker's specific expertise
+    - Suggests that the benefits of typology flaws can be limited by a poor fit between the granularity of the typology and the data worker's specific expertise
   - EXPERT_HELP_NEEDED_TO_CHANGE_ABSTRACTIONS
     -
   - MORE_DATA_NEEDED_TO_CHANGE_ABSTRACTIONS
