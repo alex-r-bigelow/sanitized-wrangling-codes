@@ -342,7 +342,7 @@ Codes:
     - Validates that the costs incurred by changing the design of an abstraction are real
 
 ## Like access to real data, introducing a data abstraction typology\* helps to focus reflection and communication about data abstractions at a level of detail that includes actionable information
-Definition: A classification of the space of possible data abstractions and/or data wrangling operations.
+Definition: A classification of the space of possible data abstractions and how they relate.
 
 Both real data and the typology can be deeply flawed; in fact, some flaws (such as a missing typology category) can be particularly helpful in provoking focused feedback. However, some typology flaws (such as a level of granularity that is a poor fit for the data worker's expertise) can limit its effectiveness
 
