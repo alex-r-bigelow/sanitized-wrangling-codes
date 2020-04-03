@@ -255,6 +255,8 @@ those sets.” (from Initial Dataset Debrief)
     - Conversation between all authors (A-1, A-2, A-3)
     - "The text components of medical records often contain quantitative measures and features, which however require some pre-processing/structuring. In filling out the data dimensions, I considered that the unstructured data would have been pre-processed somehow and was fairly liberal in how that structure could be realized.” (from Alternative Dataset Reflections) -- they are thinking of part of the processing, nnot just the raw
 
+## DISCREPANCY_BETWEEN_MENTAL_MODELS_AND_RAW_DATA
+  - Compared to the diverse responses to "How frequently do each of the following characterize how you interpret the dataset (including any metadata)?", the responses to "How accurately do each of the following statements characterize how a computer would interpret the raw dataset (including any metadata)?" were disproportionately tabular
 
 ## Other interesting tidbits not yet coded
   - Half of Tabular respondents expect empty cells
@@ -305,6 +307,8 @@ Codes:
     - Shows that other meaningful, useful abstractions (e.g. sets, clusters, groupings) are possible, even though the raw data may not be formatted that way
   - DATASET_A_COMPLEX_AND_EVOLVING_FORM
     - Validates a known [Sedlmair, BELIV 2012; Bigelow AVI 2014] phenomenon that data rarely has a "native" abstraction, even if predominant file formats exist; abstractions must be designed
+  - DISCREPANCY_BETWEEN_MENTAL_MODELS_AND_RAW_DATA
+    - Shows that there can often be important differences between how data workers think about their data, and how file formats are structured
   - DOESNT_COUNT_AS_DATA
     - Suggests that visualization researchers are aware of abstractions that data workers may not have considered. Communication to introduce the abstraction is necessary.
   - MISSING_FUNCTION_CATEGORY
@@ -359,9 +363,3 @@ Codes:
     - Shows how a flawed typology can serve as an aid to communication, in that it can prompt targeted feedback about how a typology is subdivided, and the ways that a specific abstraction fits or partially fits more than one abstraction category
   - MEDIA_TOO_UNDEFINED
     - Suggests that the benefits of typology flaws can be limited by a poor fit between the granularity of the typology and the data worker's specific expertise
-
-## Guidance about how to best help data workers navigate wrangling their abstractions to a new format (in terms of a design study, and/or in terms of writing wrangling software)?
-  - EXPERT_HELP_NEEDED_TO_CHANGE_ABSTRACTIONS
-    - Suggests that, although latent abstractions
-  - MORE_DATA_NEEDED_TO_CHANGE_ABSTRACTIONS
-    -
