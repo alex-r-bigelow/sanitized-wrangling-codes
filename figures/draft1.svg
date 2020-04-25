@@ -1,0 +1,2237 @@
+<svg width="1000" height="300">
+  <style type="text/css">
+    <![CDATA[
+    text {
+      font-family: 'Computer Modern';
+    }
+    ]]>
+  </style>
+  <g id="axis" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle" transform="translate(0,260)">
+    <path class="domain" stroke="currentColor" d="M10.5,6V0.5H930.5V6"></path>
+    <g class="tick" opacity="1" transform="translate(10.5,0)" data-d3="&quot;2019-05-01T07:00:00.000Z&quot;">
+      <line stroke="currentColor" y2="6" data-d3="&quot;2019-05-01T07:00:00.000Z&quot;"></line>
+      <text fill="currentColor" y="9" dy="0.71em" data-d3="&quot;2019-05-01T07:00:00.000Z&quot;">May</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(88.42349726775956,0)" data-d3="&quot;2019-06-01T07:00:00.000Z&quot;">
+      <line stroke="currentColor" y2="6" data-d3="&quot;2019-06-01T07:00:00.000Z&quot;"></line>
+      <text fill="currentColor" y="9" dy="0.71em" data-d3="&quot;2019-06-01T07:00:00.000Z&quot;">Jun</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(163.83333333333334,0)" data-d3="&quot;2019-07-01T07:00:00.000Z&quot;">
+      <line stroke="currentColor" y2="6" data-d3="&quot;2019-07-01T07:00:00.000Z&quot;"></line>
+      <text fill="currentColor" y="9" dy="0.71em" data-d3="&quot;2019-07-01T07:00:00.000Z&quot;">Jul</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(241.7568306010929,0)" data-d3="&quot;2019-08-01T07:00:00.000Z&quot;">
+      <line stroke="currentColor" y2="6" data-d3="&quot;2019-08-01T07:00:00.000Z&quot;"></line>
+      <text fill="currentColor" y="9" dy="0.71em" data-d3="&quot;2019-08-01T07:00:00.000Z&quot;">Aug</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(319.68032786885243,0)" data-d3="&quot;2019-09-01T07:00:00.000Z&quot;">
+      <line stroke="currentColor" y2="6" data-d3="&quot;2019-09-01T07:00:00.000Z&quot;"></line>
+      <text fill="currentColor" y="9" dy="0.71em" data-d3="&quot;2019-09-01T07:00:00.000Z&quot;">Sep</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(395.09016393442624,0)" data-d3="&quot;2019-10-01T07:00:00.000Z&quot;">
+      <line stroke="currentColor" y2="6" data-d3="&quot;2019-10-01T07:00:00.000Z&quot;"></line>
+      <text fill="currentColor" y="9" dy="0.71em" data-d3="&quot;2019-10-01T07:00:00.000Z&quot;">Oct</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(473.0136612021858,0)" data-d3="&quot;2019-11-01T07:00:00.000Z&quot;">
+      <line stroke="currentColor" y2="6" data-d3="&quot;2019-11-01T07:00:00.000Z&quot;"></line>
+      <text fill="currentColor" y="9" dy="0.71em" data-d3="&quot;2019-11-01T07:00:00.000Z&quot;">Nov</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(548.4234972677596,0)" data-d3="&quot;2019-12-01T07:00:00.000Z&quot;">
+      <line stroke="currentColor" y2="6" data-d3="&quot;2019-12-01T07:00:00.000Z&quot;"></line>
+      <text fill="currentColor" y="9" dy="0.71em" data-d3="&quot;2019-12-01T07:00:00.000Z&quot;">Dec</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(626.3469945355191,0)" data-d3="&quot;2020-01-01T07:00:00.000Z&quot;">
+      <line stroke="currentColor" y2="6" data-d3="&quot;2020-01-01T07:00:00.000Z&quot;"></line>
+      <text fill="currentColor" y="9" dy="0.71em" data-d3="&quot;2020-01-01T07:00:00.000Z&quot;">Jan</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(704.2704918032787,0)" data-d3="&quot;2020-02-01T07:00:00.000Z&quot;">
+      <line stroke="currentColor" y2="6" data-d3="&quot;2020-02-01T07:00:00.000Z&quot;"></line>
+      <text fill="currentColor" y="9" dy="0.71em" data-d3="&quot;2020-02-01T07:00:00.000Z&quot;">Feb</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(777.1666666666666,0)" data-d3="&quot;2020-03-01T07:00:00.000Z&quot;">
+      <line stroke="currentColor" y2="6" data-d3="&quot;2020-03-01T07:00:00.000Z&quot;"></line>
+      <text fill="currentColor" y="9" dy="0.71em" data-d3="&quot;2020-03-01T07:00:00.000Z&quot;">Mar</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(855.0901639344262,0)" data-d3="&quot;2020-04-01T07:00:00.000Z&quot;">
+      <line stroke="currentColor" y2="6" data-d3="&quot;2020-04-01T07:00:00.000Z&quot;"></line>
+      <text fill="currentColor" y="9" dy="0.71em" data-d3="&quot;2020-04-01T07:00:00.000Z&quot;">Apr</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(930.5,0)" data-d3="&quot;2020-05-01T07:00:00.000Z&quot;">
+      <line stroke="currentColor" y2="6" data-d3="&quot;2020-05-01T07:00:00.000Z&quot;"></line>
+      <text fill="currentColor" y="9" dy="0.71em" data-d3="&quot;2020-05-01T07:00:00.000Z&quot;">May</text>
+    </g>
+  </g>
+  <g id="layerDividers" fill="none" font-size="10" font-family="sans-serif" text-anchor="end" transform="translate(990,0)">
+    <g class="tick" opacity="1" transform="translate(0,20.5)" data-d3="&quot;T1&quot;">
+      <line stroke="currentColor" x2="-980" opacity="0.25" data-d3="&quot;T1&quot;"></line>
+      <text fill="currentColor" x="-9" dy="-0.1em" data-d3="&quot;T1&quot;">T1</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,40.5)" data-d3="&quot;T2&quot;">
+      <line stroke="currentColor" x2="-980" opacity="0.25" data-d3="&quot;T2&quot;"></line>
+      <text fill="currentColor" x="-9" dy="-0.1em" data-d3="&quot;T2&quot;">T2</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,60.5)" data-d3="&quot;T3&quot;">
+      <line stroke="currentColor" x2="-980" opacity="0.25" data-d3="&quot;T3&quot;"></line>
+      <text fill="currentColor" x="-9" dy="-0.1em" data-d3="&quot;T3&quot;">T3</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,80.5)" data-d3="&quot;T4&quot;">
+      <line stroke="currentColor" x2="-980" opacity="0.25" data-d3="&quot;T4&quot;"></line>
+      <text fill="currentColor" x="-9" dy="-0.1em" data-d3="&quot;T4&quot;">T4</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,100.5)">
+      <line stroke="currentColor" x2="0" opacity="0.25"></line>
+      <text fill="currentColor" x="-9" dy="-0.1em"></text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,120.5)" data-d3="&quot;Coding&quot;">
+      <line stroke="currentColor" x2="-980" opacity="0.25" data-d3="&quot;Coding&quot;"></line>
+      <text fill="currentColor" x="-9" dy="-0.1em" data-d3="&quot;Coding&quot;">Coding</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,140.5)" data-d3="&quot;Theoretical&quot;">
+      <line stroke="currentColor" x2="-980" opacity="0.25" data-d3="&quot;Theoretical&quot;"></line>
+      <text fill="currentColor" x="-9" dy="-0.1em" data-d3="&quot;Theoretical&quot;">Theoretical</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,160.5)" data-d3="&quot;Applied&quot;">
+      <line stroke="currentColor" x2="-980" opacity="0.25" data-d3="&quot;Applied&quot;"></line>
+      <text fill="currentColor" x="-9" dy="-0.1em" data-d3="&quot;Applied&quot;">Applied</text>
+    </g>
+    <g class="tick" opacity="1" transform="translate(0,180.5)" data-d3="&quot;Meetup&quot;">
+      <line stroke="currentColor" x2="-980" opacity="0.25" data-d3="&quot;Meetup&quot;"></line>
+      <text fill="currentColor" x="-9" dy="-0.1em" data-d3="&quot;Meetup&quot;">Meetup</text>
+    </g>
+  </g>
+  <g id="sources">
+    <g
+      class="source"
+      data-id="2019-05-15 (1)"
+      transform="translate(10,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-05-15T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-05-15 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}">
+      <path
+        d="M34.45810564663023,260
+              C34.45810564663023,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,140"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-05-15T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-05-15 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-05-21 (1)"
+      transform="translate(18.363636363636363,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-05-21T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-05-21 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}">
+      <path
+        d="M41.176436496108636,260
+              C41.176436496108636,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,140"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-05-21T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-05-21 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-05-28 (1)"
+      transform="translate(26.727272727272727,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-05-28T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-05-28 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C10&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C10&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;T1&quot;,&quot;T4&quot;]}">
+      <path
+        d="M50.40842854777281,260
+              C50.40842854777281,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-05-28T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-05-28 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C10&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C10&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;T1&quot;,&quot;T4&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <circle class="dot" r="3" cy="80" fill="black" opacity="0.5" data-d3="&quot;T4&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C10&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C10&quot;]}">C10</text>
+      </g>
+      <g class="codeList" transform="translate(0,80)" data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C10&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C10&quot;]}">C10</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2019-06-04 (1)"
+      transform="translate(35.09090909090909,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-06-04T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-06-04 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M59.64042059943698,260
+              C59.64042059943698,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-06-04T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-06-04 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-06-25 (1)"
+      transform="translate(43.45454545454545,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-06-25T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-06-25 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}">
+      <path
+        d="M104.06366948170229,260
+              C104.06366948170229,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,140"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-06-25T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-06-25 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-06-27 (1)"
+      transform="translate(51.81818181818181,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-06-27T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-06-27 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M100.7273555224375,260
+              C100.7273555224375,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-06-27T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-06-27 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-07-02 (1)"
+      transform="translate(60.18181818181818,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-07-02T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-07-02 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}">
+      <path
+        d="M104.93202516973008,260
+              C104.93202516973008,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,140"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-07-02T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-07-02 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-07-09 (1)"
+      transform="translate(68.54545454545455,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-07-09T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-07-09 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}">
+      <path
+        d="M114.16401722139427,260
+              C114.16401722139427,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,140"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-07-09T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-07-09 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-07-11 (1)"
+      transform="translate(76.9090909090909,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-07-11T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-07-11 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M110.82770326212949,260
+              C110.82770326212949,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-07-11T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-07-11 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-07-16 (1)"
+      transform="translate(85.27272727272727,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-07-16T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-07-16 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M115.03237290942211,260
+              C115.03237290942211,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-07-16T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-07-16 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-07-18 (1)"
+      transform="translate(93.63636363636363,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-07-18T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-07-18 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M111.6960589501573,260
+              C111.6960589501573,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-07-18T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-07-18 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-07-23 (1)"
+      transform="translate(102,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-07-23T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-07-23 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M115.90072859744993,260
+              C115.90072859744993,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-07-23T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-07-23 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-07-25 (1)"
+      transform="translate(110.36363636363636,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-07-25T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-07-25 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M112.56441463818514,260
+              C112.56441463818514,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-07-25T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-07-25 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-07-30 (1)"
+      transform="translate(118.72727272727272,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-07-30T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-07-30 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M116.76908428547773,260
+              C116.76908428547773,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-07-30T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-07-30 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-08-01 (1)"
+      transform="translate(127.0909090909091,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-08-01T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-08-01 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M113.43277032621293,260
+              C113.43277032621293,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-08-01T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-08-01 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-08-06 (1)"
+      transform="translate(135.45454545454544,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-08-06T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-08-06 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M117.63743997350556,260
+              C117.63743997350556,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-08-06T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-08-06 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-08-08 (1)"
+      transform="translate(143.8181818181818,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-08-08T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-08-08 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M114.30112601424077,260
+              C114.30112601424077,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-08-08T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-08-08 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-08-15 (1)"
+      transform="translate(152.1818181818182,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-08-15T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-08-15 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M123.53311806590494,260
+              C123.53311806590494,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-08-15T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-08-15 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-08-20 (1)"
+      transform="translate(160.54545454545453,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-08-20T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-08-20 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M127.73778771319755,260
+              C127.73778771319755,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-08-20T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-08-20 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-08-27 (1)"
+      transform="translate(168.9090909090909,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-08-27T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-08-27 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C20&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;,&quot;T4&quot;]}">
+      <path
+        d="M136.96977976486167,260
+              C136.96977976486167,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,80"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-08-27T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-08-27 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C20&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;,&quot;T4&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+      <circle class="dot" r="3" cy="80" fill="black" opacity="0.5" data-d3="&quot;T4&quot;"></circle>
+      <g class="codeList" transform="translate(0,80)" data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C20&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C20&quot;]}">C20</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2019-08-28 (1)"
+      transform="translate(177.27272727272725,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-08-28T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Applied&quot;],&quot;id&quot;:&quot;2019-08-28 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Applied&quot;]}">
+      <path
+        d="M131.11980460341118,260
+              C131.11980460341118,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,140"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-08-28T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Applied&quot;],&quot;id&quot;:&quot;2019-08-28 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-08-29 (1)"
+      transform="translate(185.63636363636363,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-08-29T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-08-29 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M125.26982944196055,260
+              C125.26982944196055,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-08-29T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-08-29 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-08-30 (1)"
+      transform="translate(194,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-08-30T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-08-30 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}">
+      <path
+        d="M119.41985428050998,260
+              C119.41985428050998,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,140"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-08-30T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-08-30 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-09-05 (1)"
+      transform="translate(202.36363636363635,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-09-05T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-09-05 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M126.13818512998839,260
+              C126.13818512998839,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-09-05T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-09-05 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-09-06 (1)"
+      transform="translate(210.72727272727272,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-09-06T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-09-06 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}">
+      <path
+        d="M120.28820996853787,260
+              C120.28820996853787,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,140"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-09-06T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-09-06 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-09-12 (1)"
+      transform="translate(219.0909090909091,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-09-12T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-09-12 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M127.00654081801619,260
+              C127.00654081801619,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-09-12T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-09-12 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-09-13 (1)"
+      transform="translate(227.45454545454544,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-09-13T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-09-13 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}">
+      <path
+        d="M121.1565656565657,260
+              C121.1565656565657,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,140"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-09-13T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2019-09-13 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-09-19 (1)"
+      transform="translate(235.8181818181818,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-09-19T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-09-19 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M127.87489650604408,260
+              C127.87489650604408,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-09-19T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-09-19 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-09-26 (1)"
+      transform="translate(244.1818181818182,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-09-26T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-09-26 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M137.10688855770826,260
+              C137.10688855770826,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-09-26T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-09-26 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-10-03 (1)"
+      transform="translate(252.54545454545453,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-10-03T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-10-03 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M146.3388806093724,260
+              C146.3388806093724,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-10-03T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-10-03 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-10-10 (1)"
+      transform="translate(260.9090909090909,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-10-10T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-10-10 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M155.57087266103662,260
+              C155.57087266103662,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-10-10T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-10-10 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-10-17 (1)"
+      transform="translate(269.27272727272725,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-10-17T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-10-17 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M164.80286471270085,260
+              C164.80286471270085,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-10-17T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-10-17 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-10-21 (1)"
+      transform="translate(277.6363636363636,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-10-21T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2019-10-21 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C3&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C3&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;T1&quot;,&quot;T2&quot;]}">
+      <path
+        d="M166.49387315780757,260
+              C166.49387315780757,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-10-21T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2019-10-21 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C3&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C3&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;T1&quot;,&quot;T2&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C3&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C3&quot;]}">C3</text>
+      </g>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C3&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C3&quot;]}">C3</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2019-10-22 (1)"
+      transform="translate(286,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-10-22T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2019-10-22 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M160.643897996357,260
+              C160.643897996357,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-10-22T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2019-10-22 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-10-23 (1)"
+      transform="translate(294.3636363636364,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-10-23T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2019-10-23 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M154.79392283490637,260
+              C154.79392283490637,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-10-23T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2019-10-23 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-10-29 (1)"
+      transform="translate(302.7272727272727,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-10-29T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-10-29 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M161.51225368438486,260
+              C161.51225368438486,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-10-29T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-10-29 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-10-31 (1)"
+      transform="translate(311.09090909090907,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-10-31T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-10-31 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M158.1759397251201,260
+              C158.1759397251201,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-10-31T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-10-31 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-11-04 (1)"
+      transform="translate(319.45454545454544,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-11-04T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Applied&quot;],&quot;id&quot;:&quot;2019-11-04 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C8&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Applied&quot;,&quot;T1&quot;,&quot;T2&quot;,&quot;T4&quot;]}">
+      <path
+        d="M159.8669481702268,260
+              C159.8669481702268,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-11-04T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Applied&quot;],&quot;id&quot;:&quot;2019-11-04 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C8&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Applied&quot;,&quot;T1&quot;,&quot;T2&quot;,&quot;T4&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <circle class="dot" r="3" cy="80" fill="black" opacity="0.5" data-d3="&quot;T4&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C8&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C8&quot;]}">C8</text>
+      </g>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;]}">C8</text>
+      </g>
+      <g class="codeList" transform="translate(0,80)" data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;]}">C8</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2019-11-05 (1)"
+      transform="translate(327.8181818181818,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-11-05T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-11-05 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M154.0169730087763,260
+              C154.0169730087763,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-11-05T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-11-05 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-11-07 (1)"
+      transform="translate(336.1818181818182,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-11-07T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-11-07 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M150.68065904951146,260
+              C150.68065904951146,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-11-07T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-11-07 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-11-14 (1)"
+      transform="translate(344.5454545454545,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-11-14T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2019-11-14 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}">
+      <path
+        d="M159.9126511011757,260
+              C159.9126511011757,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,140"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-11-14T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2019-11-14 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-11-14 (2)"
+      transform="translate(352.9090909090909,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-11-14T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2019-11-14 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M151.54901479572595,260
+              C151.54901479572595,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-11-14T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2019-11-14 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-11-19 (1)"
+      transform="translate(361.27272727272725,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-11-19T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2019-11-19 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M155.753684384832,260
+              C155.753684384832,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-11-19T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2019-11-19 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-11-20 (1)"
+      transform="translate(369.6363636363636,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-11-20T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2019-11-20 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C14&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C14&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;T2&quot;,&quot;T4&quot;]}">
+      <path
+        d="M149.90370922338138,260
+              C149.90370922338138,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,40"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-11-20T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2019-11-20 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C14&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C14&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;T2&quot;,&quot;T4&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <circle class="dot" r="3" cy="80" fill="black" opacity="0.5" data-d3="&quot;T4&quot;"></circle>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C14&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C14&quot;]}">C14</text>
+      </g>
+      <g class="codeList" transform="translate(0,80)" data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C14&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C14&quot;]}">C14</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2019-11-21 (1)"
+      transform="translate(378,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-11-21T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2019-11-21 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C7&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C7&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;T1&quot;,&quot;T2&quot;]}">
+      <path
+        d="M144.05373406193087,260
+              C144.05373406193087,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-11-21T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2019-11-21 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C7&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C7&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;T1&quot;,&quot;T2&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C7&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C7&quot;]}">C7</text>
+      </g>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C7&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C7&quot;]}">C7</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2019-11-21 (2)"
+      transform="translate(386.3636363636364,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-11-21T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2019-11-21 (2)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C3&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C3&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;T1&quot;,&quot;T2&quot;]}">
+      <path
+        d="M135.690097756481,260
+              C135.690097756481,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-11-21T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2019-11-21 (2)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C3&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C3&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;T1&quot;,&quot;T2&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C3&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C3&quot;]}">C3</text>
+      </g>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C3&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C3&quot;]}">C3</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2019-11-21 (3)"
+      transform="translate(394.7272727272727,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-11-21T00:00:00.003Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;meetingNo&quot;:3,&quot;id&quot;:&quot;2019-11-21 (3)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C4&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C4&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;T1&quot;,&quot;T2&quot;]}">
+      <path
+        d="M127.32646142193795,260
+              C127.32646142193795,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-11-21T00:00:00.003Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;meetingNo&quot;:3,&quot;id&quot;:&quot;2019-11-21 (3)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C4&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C4&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;T1&quot;,&quot;T2&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C4&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C4&quot;]}">C4</text>
+      </g>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C4&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C4&quot;]}">C4</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2019-11-26 (1)"
+      transform="translate(403.09090909090907,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-11-26T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-11-26 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C20&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;,&quot;T4&quot;]}">
+      <path
+        d="M131.53113098195075,260
+              C131.53113098195075,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,80"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-11-26T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-11-26 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C20&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;,&quot;T4&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+      <circle class="dot" r="3" cy="80" fill="black" opacity="0.5" data-d3="&quot;T4&quot;"></circle>
+      <g class="codeList" transform="translate(0,80)" data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C20&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C20&quot;]}">C20</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2019-12-03 (1)"
+      transform="translate(411.45454545454544,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-12-03T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-12-03 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C7&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C7&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;,&quot;T1&quot;,&quot;T2&quot;]}">
+      <path
+        d="M140.76312303361493,260
+              C140.76312303361493,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-12-03T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-12-03 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C7&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C7&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;,&quot;T1&quot;,&quot;T2&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C7&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C7&quot;]}">C7</text>
+      </g>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C7&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C7&quot;]}">C7</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2019-12-05 (1)"
+      transform="translate(419.8181818181818,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-12-05T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-12-05 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M137.42680907435016,260
+              C137.42680907435016,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-12-05T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-12-05 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-12-10 (1)"
+      transform="translate(428.1818181818182,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-12-10T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2019-12-10 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M141.63147872164262,260
+              C141.63147872164262,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2019-12-10T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2019-12-10 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-12-10 (2)"
+      transform="translate(436.5454545454545,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-12-10T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2019-12-10 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M133.26784241619293,260
+              C133.26784241619293,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-12-10T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2019-12-10 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-12-12 (1)"
+      transform="translate(444.9090909090909,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-12-12T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-12-12 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M129.93152839874153,260
+              C129.93152839874153,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-12-12T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-12-12 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-12-17 (1)"
+      transform="translate(453.27272727272725,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-12-17T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-12-17 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M134.1361980460341,260
+              C134.1361980460341,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-12-17T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-12-17 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-12-19 (1)"
+      transform="translate(461.6363636363636,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-12-19T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-12-19 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M130.79988408676934,260
+              C130.79988408676934,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-12-19T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-12-19 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2019-12-26 (1)"
+      transform="translate(470,0)"
+      data-d3="{&quot;date&quot;:&quot;2019-12-26T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-12-26 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M140.03187613843352,260
+              C140.03187613843352,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2019-12-26T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2019-12-26 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-01-07 (1)"
+      transform="translate(478.3636363636364,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-01-07T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-01-07 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M161.83217420102665,260
+              C161.83217420102665,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-01-07T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-01-07 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-01-08 (1)"
+      transform="translate(486.7272727272727,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-01-08T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-01-08 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M155.98219903957607,260
+              C155.98219903957607,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-01-08T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-01-08 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-01-10 (1)"
+      transform="translate(495.09090909090907,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-01-10T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-01-10 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M152.64588508031142,260
+              C152.64588508031142,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-01-10T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-01-10 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-01-11 (1)"
+      transform="translate(503.45454545454544,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-01-11T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Coding&quot;],&quot;id&quot;:&quot;2020-01-11 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C7&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C7&quot;]}],&quot;layers&quot;:[&quot;Coding&quot;,&quot;T1&quot;,&quot;T2&quot;]}">
+      <path
+        d="M146.79590991886067,260
+              C146.79590991886067,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-01-11T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Coding&quot;],&quot;id&quot;:&quot;2020-01-11 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C7&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C7&quot;]}],&quot;layers&quot;:[&quot;Coding&quot;,&quot;T1&quot;,&quot;T2&quot;]}"></path>
+      <circle class="dot" r="4" cy="120" fill="black" opacity="0.5" data-d3="&quot;Coding&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C7&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C7&quot;]}">C7</text>
+      </g>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C7&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C7&quot;]}">C7</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2020-01-14 (1)"
+      transform="translate(511.8181818181818,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-01-14T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-01-14 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M145.97325716178165,260
+              C145.97325716178165,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-01-14T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-01-14 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-01-14 (2)"
+      transform="translate(520.1818181818182,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-01-14T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-01-14 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M137.60962085633196,260
+              C137.60962085633196,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-01-14T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-01-14 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-01-16 (1)"
+      transform="translate(528.5454545454545,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-01-16T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-01-16 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M134.27330683888067,260
+              C134.27330683888067,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-01-16T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-01-16 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-01-21 (1)"
+      transform="translate(536.9090909090909,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-01-21T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-01-21 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C15&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C15&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;,&quot;T2&quot;,&quot;T3&quot;]}">
+      <path
+        d="M138.47797648617313,260
+              C138.47797648617313,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,40"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-01-21T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-01-21 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C15&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C15&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;,&quot;T2&quot;,&quot;T3&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <circle class="dot" r="3" cy="60" fill="black" opacity="0.5" data-d3="&quot;T3&quot;"></circle>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C15&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C15&quot;]}">C15</text>
+      </g>
+      <g class="codeList" transform="translate(0,60)" data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C15&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C15&quot;]}">C15</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2020-01-23 (1)"
+      transform="translate(545.2727272727273,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-01-23T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-01-23 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M135.14166252690848,260
+              C135.14166252690848,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-01-23T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-01-23 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-01-28 (1)"
+      transform="translate(553.6363636363636,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-01-28T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-01-28 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M139.34633217420105,260
+              C139.34633217420105,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-01-28T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-01-28 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-01-30 (1)"
+      transform="translate(562,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-01-30T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-01-30 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M136.01001821493628,260
+              C136.01001821493628,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-01-30T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-01-30 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-01-31 (1)"
+      transform="translate(570.3636363636364,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-01-31T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-01-31 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M130.16004305348565,260
+              C130.16004305348565,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-01-31T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-01-31 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-03 (1)"
+      transform="translate(578.7272727272727,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-03T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-02-03 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M129.33739029640674,260
+              C129.33739029640674,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-02-03T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-02-03 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-04 (1)"
+      transform="translate(587.0909090909091,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-04T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-02-04 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C15&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C15&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;,&quot;T2&quot;,&quot;T3&quot;]}">
+      <path
+        d="M123.48741513495611,260
+              C123.48741513495611,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,40"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-02-04T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-02-04 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C15&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C15&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;,&quot;T2&quot;,&quot;T3&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <circle class="dot" r="3" cy="60" fill="black" opacity="0.5" data-d3="&quot;T3&quot;"></circle>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C15&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C15&quot;]}">C15</text>
+      </g>
+      <g class="codeList" transform="translate(0,60)" data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C15&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C15&quot;]}">C15</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-04 (2)"
+      transform="translate(595.4545454545454,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-04T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-02-04 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M115.12377882950648,260
+              C115.12377882950648,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-02-04T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-02-04 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-07 (1)"
+      transform="translate(603.8181818181818,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-07T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-02-07 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M114.30112601424082,260
+              C114.30112601424082,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-02-07T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-02-07 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-10 (1)"
+      transform="translate(612.1818181818181,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-10T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-02-10 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C7&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C7&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;T1&quot;,&quot;T2&quot;]}">
+      <path
+        d="M113.47847325716191,260
+              C113.47847325716191,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-02-10T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-02-10 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C7&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C7&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;T1&quot;,&quot;T2&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C7&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C7&quot;]}">C7</text>
+      </g>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C7&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C7&quot;]}">C7</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-10 (2)"
+      transform="translate(620.5454545454545,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-10T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-02-10 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M105.11483695171205,260
+              C105.11483695171205,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-02-10T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-02-10 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-11 (1)"
+      transform="translate(628.9090909090909,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-11T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-02-11 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;]}">
+      <path
+        d="M99.2648617320749,260
+              C99.2648617320749,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-02-11T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-02-11 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-14 (1)"
+      transform="translate(637.2727272727273,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-14T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-02-14 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M98.44220897499588,260
+              C98.44220897499588,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-02-14T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-02-14 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-17 (1)"
+      transform="translate(645.6363636363636,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-17T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-02-17 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;]}">
+      <path
+        d="M97.61955621791685,260
+              C97.61955621791685,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-02-17T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-02-17 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-18 (1)"
+      transform="translate(654,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-18T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-02-18 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C9&quot;,&quot;C7&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C9&quot;,&quot;C7&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C9&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;,&quot;T1&quot;,&quot;T2&quot;,&quot;T4&quot;]}">
+      <path
+        d="M91.76958105646622,260
+              C91.76958105646622,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-02-18T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-02-18 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C9&quot;,&quot;C7&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C9&quot;,&quot;C7&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C9&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;,&quot;T1&quot;,&quot;T2&quot;,&quot;T4&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <circle class="dot" r="3" cy="80" fill="black" opacity="0.5" data-d3="&quot;T4&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C9&quot;,&quot;C7&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C9&quot;,&quot;C7&quot;]}">C9, C7</text>
+      </g>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C9&quot;,&quot;C7&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C9&quot;,&quot;C7&quot;]}">C9, C7</text>
+      </g>
+      <g class="codeList" transform="translate(0,80)" data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C9&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C9&quot;]}">C9</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-18 (2)"
+      transform="translate(662.3636363636364,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-18T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-02-18 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M83.40594475101659,260
+              C83.40594475101659,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-02-18T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-02-18 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-20 (1)"
+      transform="translate(670.7272727272727,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-20T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-02-20 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;]}">
+      <path
+        d="M80.06963073356508,260
+              C80.06963073356508,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,120"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-02-20T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-02-20 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+      <circle class="dot" r="4" cy="120" fill="black" opacity="0.5" data-d3="&quot;Coding&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-20 (2)"
+      transform="translate(679.090909090909,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-20T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-02-20 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M71.70599442811545,260
+              C71.70599442811545,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-02-20T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-02-20 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-21 (1)"
+      transform="translate(687.4545454545454,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-21T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-02-21 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;]}">
+      <path
+        d="M65.85601920847819,260
+              C65.85601920847819,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-02-21T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-02-21 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-25 (1)"
+      transform="translate(695.8181818181818,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-25T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-02-25 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C7&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C15&quot;,&quot;C7&quot;,&quot;C14&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C15&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C14&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;,&quot;T1&quot;,&quot;T2&quot;,&quot;T3&quot;,&quot;T4&quot;]}">
+      <path
+        d="M67.54702765358502,260
+              C67.54702765358502,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-02-25T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-02-25 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C7&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C15&quot;,&quot;C7&quot;,&quot;C14&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C15&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C14&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;,&quot;T1&quot;,&quot;T2&quot;,&quot;T3&quot;,&quot;T4&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+      <circle class="dot" r="4" cy="120" fill="black" opacity="0.5" data-d3="&quot;Coding&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <circle class="dot" r="3" cy="60" fill="black" opacity="0.5" data-d3="&quot;T3&quot;"></circle>
+      <circle class="dot" r="3" cy="80" fill="black" opacity="0.5" data-d3="&quot;T4&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C7&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C7&quot;]}">C8, C9, C7</text>
+      </g>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C15&quot;,&quot;C7&quot;,&quot;C14&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C15&quot;,&quot;C7&quot;,&quot;C14&quot;]}">C8, C9, C15, C7, C14</text>
+      </g>
+      <g class="codeList" transform="translate(0,60)" data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C15&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C15&quot;]}">C15</text>
+      </g>
+      <g class="codeList" transform="translate(0,80)" data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C14&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C14&quot;]}">C8, C9, C14</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-25 (2)"
+      transform="translate(704.1818181818181,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-25T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-02-25 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M59.183391348135274,260
+              C59.183391348135274,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-02-25T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-02-25 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-27 (1)"
+      transform="translate(712.5454545454545,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-27T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-02-27 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C1&quot;,&quot;C8&quot;,&quot;C9&quot;,&quot;C3&quot;,&quot;C4&quot;,&quot;C7&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C3&quot;,&quot;C4&quot;,&quot;C7&quot;,&quot;C14&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C22&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C14&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;,&quot;T1&quot;,&quot;T2&quot;,&quot;T3&quot;,&quot;T4&quot;]}">
+      <path
+        d="M55.847077330683874,260
+              C55.847077330683874,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-02-27T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-02-27 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C1&quot;,&quot;C8&quot;,&quot;C9&quot;,&quot;C3&quot;,&quot;C4&quot;,&quot;C7&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C3&quot;,&quot;C4&quot;,&quot;C7&quot;,&quot;C14&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C22&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C14&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;,&quot;T1&quot;,&quot;T2&quot;,&quot;T3&quot;,&quot;T4&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+      <circle class="dot" r="4" cy="120" fill="black" opacity="0.5" data-d3="&quot;Coding&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <circle class="dot" r="3" cy="60" fill="black" opacity="0.5" data-d3="&quot;T3&quot;"></circle>
+      <circle class="dot" r="3" cy="80" fill="black" opacity="0.5" data-d3="&quot;T4&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C1&quot;,&quot;C8&quot;,&quot;C9&quot;,&quot;C3&quot;,&quot;C4&quot;,&quot;C7&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C1&quot;,&quot;C8&quot;,&quot;C9&quot;,&quot;C3&quot;,&quot;C4&quot;,&quot;C7&quot;]}">C1, C8, C9, C3, C4, C7</text>
+      </g>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C3&quot;,&quot;C4&quot;,&quot;C7&quot;,&quot;C14&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C3&quot;,&quot;C4&quot;,&quot;C7&quot;,&quot;C14&quot;]}">C8, C9, C3, C4, C7, C14</text>
+      </g>
+      <g class="codeList" transform="translate(0,60)" data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C22&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C22&quot;]}">C22</text>
+      </g>
+      <g class="codeList" transform="translate(0,80)" data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C14&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C9&quot;,&quot;C14&quot;]}">C8, C9, C14</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-27 (2)"
+      transform="translate(720.9090909090909,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-27T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-02-27 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M47.48344102523413,260
+              C47.48344102523413,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-02-27T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-02-27 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-28 (1)"
+      transform="translate(729.2727272727273,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-28T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-02-28 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}">
+      <path
+        d="M41.633465805596984,260
+              C41.633465805596984,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,140"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-02-28T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-02-28 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-02-28 (2)"
+      transform="translate(737.6363636363636,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-02-28T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-02-28 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M33.269829500147125,260
+              C33.269829500147125,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-02-28T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-02-28 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-03-02 (1)"
+      transform="translate(746,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-03-02T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-03-02 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C19&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C19&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;T2&quot;,&quot;T3&quot;]}">
+      <path
+        d="M32.44717668488158,260
+              C32.44717668488158,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,40"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-03-02T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-03-02 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C19&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C19&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;T2&quot;,&quot;T3&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <circle class="dot" r="3" cy="60" fill="black" opacity="0.5" data-d3="&quot;T3&quot;"></circle>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C19&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C19&quot;]}">C19</text>
+      </g>
+      <g class="codeList" transform="translate(0,60)" data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C19&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C19&quot;]}">C19</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2020-03-03 (1)"
+      transform="translate(754.3636363636364,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-03-03T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;],&quot;id&quot;:&quot;2020-03-03 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C3&quot;,&quot;C4&quot;,&quot;C10&quot;,&quot;C12&quot;,&quot;C6&quot;,&quot;C2&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C3&quot;,&quot;C4&quot;,&quot;C18&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C18&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C10&quot;,&quot;C13&quot;,&quot;C12&quot;,&quot;C6&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;,&quot;T1&quot;,&quot;T2&quot;,&quot;T3&quot;,&quot;T4&quot;]}">
+      <path
+        d="M26.597201523430954,260
+              C26.597201523430954,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-03-03T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;],&quot;id&quot;:&quot;2020-03-03 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C3&quot;,&quot;C4&quot;,&quot;C10&quot;,&quot;C12&quot;,&quot;C6&quot;,&quot;C2&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C3&quot;,&quot;C4&quot;,&quot;C18&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C18&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C10&quot;,&quot;C13&quot;,&quot;C12&quot;,&quot;C6&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;,&quot;T1&quot;,&quot;T2&quot;,&quot;T3&quot;,&quot;T4&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+      <circle class="dot" r="4" cy="120" fill="black" opacity="0.5" data-d3="&quot;Coding&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <circle class="dot" r="3" cy="60" fill="black" opacity="0.5" data-d3="&quot;T3&quot;"></circle>
+      <circle class="dot" r="3" cy="80" fill="black" opacity="0.5" data-d3="&quot;T4&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C3&quot;,&quot;C4&quot;,&quot;C10&quot;,&quot;C12&quot;,&quot;C6&quot;,&quot;C2&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C3&quot;,&quot;C4&quot;,&quot;C10&quot;,&quot;C12&quot;,&quot;C6&quot;,&quot;C2&quot;]}">C3, C4, C10, C12, C6, C2</text>
+      </g>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C3&quot;,&quot;C4&quot;,&quot;C18&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C3&quot;,&quot;C4&quot;,&quot;C18&quot;]}">C3, C4, C18</text>
+      </g>
+      <g class="codeList" transform="translate(0,60)" data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C18&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C18&quot;]}">C18</text>
+      </g>
+      <g class="codeList" transform="translate(0,80)" data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C10&quot;,&quot;C13&quot;,&quot;C12&quot;,&quot;C6&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C10&quot;,&quot;C13&quot;,&quot;C12&quot;,&quot;C6&quot;]}">C10, C13, C12, C6</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2020-03-04 (1)"
+      transform="translate(762.7272727272727,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-03-04T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-03-04 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C8&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C18&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C18&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;,&quot;T1&quot;,&quot;T2&quot;,&quot;T3&quot;,&quot;T4&quot;]}">
+      <path
+        d="M20.747226361980438,260
+              C20.747226361980438,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-03-04T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-03-04 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C8&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C18&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C18&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;Meetup&quot;,&quot;T1&quot;,&quot;T2&quot;,&quot;T3&quot;,&quot;T4&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <circle class="dot" r="3" cy="60" fill="black" opacity="0.5" data-d3="&quot;T3&quot;"></circle>
+      <circle class="dot" r="3" cy="80" fill="black" opacity="0.5" data-d3="&quot;T4&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C8&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C8&quot;]}">C8</text>
+      </g>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C18&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C18&quot;]}">C8, C18</text>
+      </g>
+      <g class="codeList" transform="translate(0,60)" data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C18&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C18&quot;]}">C18</text>
+      </g>
+      <g class="codeList" transform="translate(0,80)" data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;]}">C8</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2020-03-05 (1)"
+      transform="translate(771.090909090909,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-03-05T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2020-03-05 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}">
+      <path
+        d="M14.897251200529922,260
+              C14.897251200529922,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,140"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-03-05T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2020-03-05 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-03-06 (1)"
+      transform="translate(779.4545454545454,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-03-06T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-03-06 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C19&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C19&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C13&quot;,&quot;C20&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;T2&quot;,&quot;T3&quot;,&quot;T4&quot;]}">
+      <path
+        d="M9.047276039079406,260
+              C9.047276039079406,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,40"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-03-06T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-03-06 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C19&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C19&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C13&quot;,&quot;C20&quot;]}],&quot;layers&quot;:[&quot;Applied&quot;,&quot;T2&quot;,&quot;T3&quot;,&quot;T4&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <circle class="dot" r="3" cy="60" fill="black" opacity="0.5" data-d3="&quot;T3&quot;"></circle>
+      <circle class="dot" r="3" cy="80" fill="black" opacity="0.5" data-d3="&quot;T4&quot;"></circle>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C19&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C19&quot;]}">C19</text>
+      </g>
+      <g class="codeList" transform="translate(0,60)" data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C19&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C19&quot;]}">C19</text>
+      </g>
+      <g class="codeList" transform="translate(0,80)" data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C13&quot;,&quot;C20&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C13&quot;,&quot;C20&quot;]}">C13, C20</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2020-03-10 (1)"
+      transform="translate(787.8181818181818,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-03-10T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-03-10 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C19&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C21&quot;,&quot;C24&quot;,&quot;C25&quot;,&quot;C19&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C11&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;,&quot;T2&quot;,&quot;T3&quot;,&quot;T4&quot;]}">
+      <path
+        d="M10.738284484186124,260
+              C10.738284484186124,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,40"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-03-10T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-03-10 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C19&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C21&quot;,&quot;C24&quot;,&quot;C25&quot;,&quot;C19&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C11&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;,&quot;T2&quot;,&quot;T3&quot;,&quot;T4&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+      <circle class="dot" r="4" cy="120" fill="black" opacity="0.5" data-d3="&quot;Coding&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <circle class="dot" r="3" cy="60" fill="black" opacity="0.5" data-d3="&quot;T3&quot;"></circle>
+      <circle class="dot" r="3" cy="80" fill="black" opacity="0.5" data-d3="&quot;T4&quot;"></circle>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C19&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C19&quot;]}">C19</text>
+      </g>
+      <g class="codeList" transform="translate(0,60)" data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C21&quot;,&quot;C24&quot;,&quot;C25&quot;,&quot;C19&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C21&quot;,&quot;C24&quot;,&quot;C25&quot;,&quot;C19&quot;]}">C21, C24, C25, C19</text>
+      </g>
+      <g class="codeList" transform="translate(0,80)" data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C11&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C11&quot;]}">C11</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2020-03-10 (2)"
+      transform="translate(796.1818181818181,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-03-10T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-03-10 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M2.374648178736379,260
+              C2.374648178736379,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-03-10T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-03-10 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-03-12 (1)"
+      transform="translate(804.5454545454545,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-03-12T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-03-12 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M-0.9616658387149073,260
+              C-0.9616658387149073,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-03-12T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-03-12 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-03-13 (1)"
+      transform="translate(812.9090909090909,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-03-13T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-03-13 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M-6.811641000165537,260
+              C-6.811641000165537,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-03-13T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-03-13 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-03-17 (1)"
+      transform="translate(821.2727272727273,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-03-17T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-03-17 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C6&quot;,&quot;C2&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C15&quot;,&quot;C14&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C15&quot;,&quot;C25&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C14&quot;,&quot;C13&quot;,&quot;C20&quot;,&quot;C6&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;,&quot;T1&quot;,&quot;T2&quot;,&quot;T3&quot;,&quot;T4&quot;]}">
+      <path
+        d="M-5.120632555058819,260
+              C-5.120632555058819,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-03-17T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-03-17 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C6&quot;,&quot;C2&quot;]},{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C15&quot;,&quot;C14&quot;]},{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C15&quot;,&quot;C25&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C14&quot;,&quot;C13&quot;,&quot;C20&quot;,&quot;C6&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;,&quot;T1&quot;,&quot;T2&quot;,&quot;T3&quot;,&quot;T4&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+      <circle class="dot" r="4" cy="120" fill="black" opacity="0.5" data-d3="&quot;Coding&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <circle class="dot" r="3" cy="40" fill="black" opacity="0.5" data-d3="&quot;T2&quot;"></circle>
+      <circle class="dot" r="3" cy="60" fill="black" opacity="0.5" data-d3="&quot;T3&quot;"></circle>
+      <circle class="dot" r="3" cy="80" fill="black" opacity="0.5" data-d3="&quot;T4&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C6&quot;,&quot;C2&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C6&quot;,&quot;C2&quot;]}">C8, C6, C2</text>
+      </g>
+      <g class="codeList" transform="translate(0,40)" data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C15&quot;,&quot;C14&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T2&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C15&quot;,&quot;C14&quot;]}">C8, C15, C14</text>
+      </g>
+      <g class="codeList" transform="translate(0,60)" data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C15&quot;,&quot;C25&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T3&quot;,&quot;codes&quot;:[&quot;C15&quot;,&quot;C25&quot;]}">C15, C25</text>
+      </g>
+      <g class="codeList" transform="translate(0,80)" data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C14&quot;,&quot;C13&quot;,&quot;C20&quot;,&quot;C6&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C8&quot;,&quot;C14&quot;,&quot;C13&quot;,&quot;C20&quot;,&quot;C6&quot;]}">C8, C14, C13, C20, C6</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2020-03-17 (2)"
+      transform="translate(829.6363636363636,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-03-17T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-03-17 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M-13.484268860508564,260
+              C-13.484268860508564,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-03-17T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-03-17 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-03-19 (1)"
+      transform="translate(838,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-03-19T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-03-19 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C2&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;T1&quot;]}">
+      <path
+        d="M-16.82058287795985,260
+              C-16.82058287795985,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-03-19T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;meetingNo&quot;:1,&quot;id&quot;:&quot;2020-03-19 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C2&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;T1&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C2&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C2&quot;]}">C2</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2020-03-19 (2)"
+      transform="translate(846.3636363636364,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-03-19T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-03-19 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M-25.18421918340971,260
+              C-25.18421918340971,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-03-19T00:00:00.002Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;meetingNo&quot;:2,&quot;id&quot;:&quot;2020-03-19 (2)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-03-23 (1)"
+      transform="translate(854.7272727272727,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-03-23T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-03-23 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M-23.493210796489507,260
+              C-23.493210796489507,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-03-23T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-03-23 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-03-24 (1)"
+      transform="translate(863.090909090909,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-03-24T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2020-03-24 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}">
+      <path
+        d="M-29.343185957940022,260
+              C-29.343185957940022,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,140"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-03-24T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2020-03-24 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-04-01 (1)"
+      transform="translate(871.4545454545454,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-04-01T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;],&quot;id&quot;:&quot;2020-04-01 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C12&quot;,&quot;C2&quot;,&quot;C5&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C13&quot;,&quot;C12&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;,&quot;T1&quot;,&quot;T4&quot;]}">
+      <path
+        d="M-17.597532704089986,260
+              C-17.597532704089986,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,20"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-04-01T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;],&quot;id&quot;:&quot;2020-04-01 (1)&quot;,&quot;themes&quot;:[{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C12&quot;,&quot;C2&quot;,&quot;C5&quot;]},{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C13&quot;,&quot;C12&quot;]}],&quot;layers&quot;:[&quot;Theoretical&quot;,&quot;Coding&quot;,&quot;T1&quot;,&quot;T4&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+      <circle class="dot" r="4" cy="120" fill="black" opacity="0.5" data-d3="&quot;Coding&quot;"></circle>
+      <circle class="dot" r="3" cy="20" fill="black" opacity="0.5" data-d3="&quot;T1&quot;"></circle>
+      <circle class="dot" r="3" cy="80" fill="black" opacity="0.5" data-d3="&quot;T4&quot;"></circle>
+      <g class="codeList" transform="translate(0,20)" data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C12&quot;,&quot;C2&quot;,&quot;C5&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T1&quot;,&quot;codes&quot;:[&quot;C12&quot;,&quot;C2&quot;,&quot;C5&quot;]}">C12, C2, C5</text>
+      </g>
+      <g class="codeList" transform="translate(0,80)" data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C13&quot;,&quot;C12&quot;]}">
+        <text data-d3="{&quot;theme&quot;:&quot;T4&quot;,&quot;codes&quot;:[&quot;C13&quot;,&quot;C12&quot;]}">C13, C12</text>
+      </g>
+    </g>
+    <g
+      class="source"
+      data-id="2020-04-02 (1)"
+      transform="translate(879.8181818181818,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-04-02T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-04-02 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M-23.447507865540615,260
+              C-23.447507865540615,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-04-02T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-04-02 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-04-08 (1)"
+      transform="translate(888.1818181818181,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-04-08T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-04-08 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}">
+      <path
+        d="M-16.72917701606218,260
+              C-16.72917701606218,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,160"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-04-08T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Applied&quot;],&quot;id&quot;:&quot;2020-04-08 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Applied&quot;]}"></path>
+      <circle class="dot" r="4" cy="160" fill="black" opacity="0.5" data-d3="&quot;Applied&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-04-09 (1)"
+      transform="translate(896.5454545454545,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-04-09T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-04-09 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M-22.57915217751281,260
+              C-22.57915217751281,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-04-09T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-04-09 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-04-16 (1)"
+      transform="translate(904.9090909090909,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-04-16T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-04-16 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M-13.347160125848632,260
+              C-13.347160125848632,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-04-16T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-04-16 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-04-21 (1)"
+      transform="translate(913.2727272727273,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-04-21T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2020-04-21 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}">
+      <path
+        d="M-9.142490478555942,260
+              C-9.142490478555942,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,140"
+        fill="none"
+        stroke="black"
+        opacity="0.75"
+        data-d3="{&quot;date&quot;:&quot;2020-04-21T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Theoretical&quot;],&quot;id&quot;:&quot;2020-04-21 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Theoretical&quot;]}"></path>
+      <circle class="dot" r="4" cy="140" fill="black" opacity="0.5" data-d3="&quot;Theoretical&quot;"></circle>
+    </g>
+    <g
+      class="source"
+      data-id="2020-04-23 (1)"
+      transform="translate(921.6363636363636,0)"
+      data-d3="{&quot;date&quot;:&quot;2020-04-23T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-04-23 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}">
+      <path
+        d="M-12.478804437820827,260
+              C-12.478804437820827,233.33333333333334,
+               0,206.66666666666666,
+               0,180
+              L0,180"
+        fill="none"
+        stroke="black"
+        opacity="0.2"
+        data-d3="{&quot;date&quot;:&quot;2020-04-23T00:00:00.000Z&quot;,&quot;contexts&quot;:[&quot;Meetup&quot;],&quot;id&quot;:&quot;2020-04-23 (1)&quot;,&quot;themes&quot;:[],&quot;layers&quot;:[&quot;Meetup&quot;]}"></path>
+      <circle class="dot" r="3" cy="180" fill="black" opacity="0.25" data-d3="&quot;Meetup&quot;"></circle>
+    </g>
+  </g>
+</svg>
