@@ -1,0 +1,259 @@
+{
+  "Field Notes": [
+    { "date": "2019-05-15", "contexts": ["Theoretical"] },
+    { "date": "2019-05-21", "contexts": ["Theoretical"] },
+    { "date": "2019-05-28", "contexts": ["Theoretical"] },
+    { "date": "2019-06-25", "contexts": ["Theoretical"] },
+    { "date": "2019-07-02", "contexts": ["Theoretical"] },
+    { "date": "2019-07-09", "contexts": ["Theoretical"] },
+    { "date": "2019-08-28", "contexts": ["Theoretical", "Applied"] },
+    { "date": "2019-08-30", "contexts": ["Theoretical"] },
+    { "date": "2019-09-06", "contexts": ["Theoretical"] },
+    { "date": "2019-09-13", "contexts": ["Theoretical"] },
+    { "date": "2019-11-14", "contexts": ["Theoretical"], "meetingNo": 1 },
+    { "date": "2019-12-10", "contexts": ["Applied"], "meetingNo": 1 },
+    { "date": "2019-02-25", "contexts": ["Theoretical", "Coding"] },
+    { "date": "2020-02-28", "contexts": ["Theoretical"], "meetingNo": 1 },
+    { "date": "2020-03-03", "contexts": ["Theoretical", "Coding"] },
+    { "date": "2020-03-10", "contexts": ["Theoretical", "Coding"], "meetingNo": 1 },
+    { "date": "2020-03-19", "contexts": ["Theoretical"], "meetingNo": 1 },
+    { "date": "2020-03-24", "contexts": ["Theoretical"] },
+    { "date": "2020-04-01", "contexts": ["Theoretical", "Coding"] },
+    { "date": "2020-04-21", "contexts": ["Theoretical"] },
+
+    { "date": "2019-08-27", "contexts": ["Applied", "Meetup"] },
+    { "date": "2019-10-21", "contexts": ["Applied"] },
+    { "date": "2019-10-22", "contexts": ["Applied"] },
+    { "date": "2019-10-23", "contexts": ["Applied"] },
+    { "date": "2019-11-04", "contexts": ["Theoretical", "Applied"] },
+    { "date": "2019-11-19", "contexts": ["Applied"] },
+    { "date": "2019-11-20", "contexts": ["Applied"] },
+    { "date": "2019-11-21", "contexts": ["Applied"], "meetingNo": "1" },
+    { "date": "2019-11-21", "contexts": ["Applied"], "meetingNo": "2" },
+    { "date": "2019-11-21", "contexts": ["Applied"], "meetingNo": "3" },
+    { "date": "2019-11-26", "contexts": ["Applied", "Meetup"] },
+    { "date": "2019-12-03", "contexts": ["Applied", "Meetup"] },
+    { "date": "2020-01-08", "contexts": ["Applied"] },
+    { "date": "2020-01-11", "contexts": ["Coding"] },
+    { "date": "2020-01-21", "contexts": ["Applied", "Meetup"] },
+    { "date": "2020-01-31", "contexts": ["Applied"] },
+    { "date": "2020-02-03", "contexts": ["Applied"] },
+    { "date": "2020-02-04", "contexts": ["Applied", "Meetup"], "meetingNo": 1 },
+    { "date": "2020-02-04", "contexts": ["Applied"], "meetingNo": 2 },
+    { "date": "2020-02-10", "contexts": ["Theoretical"], "meetingNo": 1 },
+    { "date": "2020-02-11", "contexts": ["Applied", "Meetup"] },
+    { "date": "2020-02-20", "contexts": ["Theoretical", "Coding"], "meetingNo": 1 },
+    { "date": "2020-02-27", "contexts": ["Theoretical", "Coding"], "meetingNo": 1 },
+    { "date": "2020-03-05", "contexts": ["Theoretical"] },
+    { "date": "2020-03-17", "contexts": ["Theoretical", "Coding"], "meetingNo": 1 },
+    { "date": "2020-03-23", "contexts": ["Applied"] },
+
+    { "date": "2020-01-14", "contexts": ["Applied"], "meetingNo": 1 },
+    { "date": "2020-02-07", "contexts": ["Applied"] },
+    { "date": "2020-02-10", "contexts": ["Applied"], "meetingNo": 2 },
+    { "date": "2020-02-14", "contexts": ["Applied"] },
+    { "date": "2020-02-17", "contexts": ["Applied", "Meetup"] },
+    { "date": "2020-02-18", "contexts": ["Applied", "Meetup"], "meetingNo": 1 },
+    { "date": "2020-02-21", "contexts": ["Applied", "Meetup"] },
+    { "date": "2020-02-28", "contexts": ["Applied"], "meetingNo": 2 },
+    { "date": "2020-03-02", "contexts": ["Applied"] },
+    { "date": "2020-03-04", "contexts": ["Applied", "Meetup"] },
+    { "date": "2020-03-06", "contexts": ["Applied"] },
+    { "date": "2020-03-12", "contexts": ["Applied"] },
+    { "date": "2020-03-13", "contexts": ["Applied"] },
+    { "date": "2020-04-08", "contexts": ["Applied"] },
+
+    { "date": "2019-06-04", "contexts": ["Meetup"] },
+    { "date": "2019-06-27", "contexts": ["Meetup"] },
+    { "date": "2019-07-11", "contexts": ["Meetup"] },
+    { "date": "2019-07-16", "contexts": ["Meetup"] },
+    { "date": "2019-07-18", "contexts": ["Meetup"] },
+    { "date": "2019-07-23", "contexts": ["Meetup"] },
+    { "date": "2019-07-25", "contexts": ["Meetup"] },
+    { "date": "2019-07-30", "contexts": ["Meetup"] },
+    { "date": "2019-08-01", "contexts": ["Meetup"] },
+    { "date": "2019-08-06", "contexts": ["Meetup"] },
+    { "date": "2019-08-08", "contexts": ["Meetup"] },
+    { "date": "2019-08-15", "contexts": ["Meetup"] },
+    { "date": "2019-08-20", "contexts": ["Meetup"] },
+    { "date": "2019-08-29", "contexts": ["Meetup"] },
+    { "date": "2019-09-05", "contexts": ["Meetup"] },
+    { "date": "2019-09-12", "contexts": ["Meetup"] },
+    { "date": "2019-09-19", "contexts": ["Meetup"] },
+    { "date": "2019-09-26", "contexts": ["Meetup"] },
+    { "date": "2019-10-03", "contexts": ["Meetup"] },
+    { "date": "2019-10-10", "contexts": ["Meetup"] },
+    { "date": "2019-10-17", "contexts": ["Meetup"] },
+    { "date": "2019-10-29", "contexts": ["Meetup"] },
+    { "date": "2019-10-31", "contexts": ["Meetup"] },
+    { "date": "2019-11-05", "contexts": ["Meetup"] },
+    { "date": "2019-11-07", "contexts": ["Meetup"] },
+    { "date": "2019-11-14", "contexts": ["Meetup"], "meetingNo": 2 },
+    { "date": "2019-12-05", "contexts": ["Meetup"] },
+    { "date": "2019-12-10", "contexts": ["Meetup"], "meetingNo": 2 },
+    { "date": "2019-12-12", "contexts": ["Meetup"] },
+    { "date": "2019-12-17", "contexts": ["Meetup"] },
+    { "date": "2019-12-19", "contexts": ["Meetup"] },
+    { "date": "2019-12-26", "contexts": ["Meetup"] },
+    { "date": "2020-01-07", "contexts": ["Meetup"] },
+    { "date": "2020-01-10", "contexts": ["Meetup"] },
+    { "date": "2020-01-14", "contexts": ["Meetup"], "meetingNo": 2 },
+    { "date": "2020-01-16", "contexts": ["Meetup"] },
+    { "date": "2020-01-23", "contexts": ["Meetup"] },
+    { "date": "2020-01-28", "contexts": ["Meetup"] },
+    { "date": "2020-01-30", "contexts": ["Meetup"] },
+    { "date": "2020-02-18", "contexts": ["Meetup"], "meetingNo": 2 },
+    { "date": "2020-02-20", "contexts": ["Meetup"], "meetingNo": 2 },
+    { "date": "2020-02-25", "contexts": ["Meetup"] },
+    { "date": "2020-02-27", "contexts": ["Meetup"], "meetingNo": 2 },
+    { "date": "2020-03-10", "contexts": ["Meetup"], "meetingNo": 2 },
+    { "date": "2020-03-17", "contexts": ["Meetup"], "meetingNo": 2 },
+    { "date": "2020-03-19", "contexts": ["Meetup"], "meetingNo": 2 },
+    { "date": "2020-04-02", "contexts": ["Meetup"] },
+    { "date": "2020-04-09", "contexts": ["Meetup"] },
+    { "date": "2020-04-16", "contexts": ["Meetup"] },
+    { "date": "2020-04-23", "contexts": ["Meetup"] }
+  ],
+  "Code Sources": {
+    "RESPONSE_SIZES" : [
+      "Survey",
+      "2019-02-27 (1)"
+    ],
+    "MANY_VERY_INACCURATE_RESPONSES" : [
+      "Survey",
+      "2019-02-27 (1)"
+    ],
+    "MISSING_FUNCTION_CATEGORY" : [
+      "Survey",
+      "2019-11-04 (1)",
+      "2020-03-04 (1)",
+      "2019-02-25 (1)",
+      "2019-02-27 (1)",
+      "2019-03-17 (1)"
+    ],
+    "MISSING_CODE_CATEGORY" : [
+      "2020-02-18 (1)",
+      "2019-02-25 (1)",
+      "2019-02-27 (1)"
+    ],
+    "HARD_TO_ISOLATE_DESIGN_FROM_OTHER_CONCERNS" : [
+      "Survey",
+      "2020-02-04 (1)",
+      "2020-01-21 (1)",
+      "2019-02-25 (1)",
+      "2019-03-17 (1)"
+    ],
+    "INTUITION_ABOUT_NETWORKS" : [
+      "Survey",
+      "2019-10-21 (1)",
+      "2019-10-21 (3)",
+      "2019-11-21 (2)",
+      "2019-02-27 (1)",
+      "2020-03-03 (1)"
+    ],
+    "INTUITION_ABOUT_GROUPS" : [
+      "Survey",
+      "2019-10-21 (3)",
+      "2019-11-21 (3)",
+      "2019-02-27 (1)",
+      "2020-03-03 (1)"
+    ],
+    "DOESNT_COUNT_AS_DATA" : [
+      "Survey",
+      "2019-12-03 (1)",
+      "2020-01-11 (1)",
+      "2020-02-10 (1)",
+      "2019-11-21 (1)",
+      "2020-02-18 (1)",
+      "2019-02-25 (1)",
+      "2019-02-27 (1)"
+    ],
+    "FOREIGN_TERMINOLOGY" : [
+      "Survey",
+      "2019-11-20 (1)",
+      "2019-02-25 (1)",
+      "2019-02-27 (1)",
+      "2019-03-17 (1)"
+    ],
+    "HARD_TO_ISOLATE_FROM_FILE_FORMATS" : [
+      "Survey",
+      "2020-03-19 (1)"
+    ],
+    "HARD_TO_ISOLATE_FROM_SOFTWARE_ABSTRACTIONS" : [
+      "Survey",
+      "2020-12-03 (1)",
+      "2020-02-04 (1)",
+      "2019-02-25 (1)",
+      "2019-03-10 (1)"
+    ],
+    "SCOPE_CREEP_FEARS" : [
+      "2020-03-04 (1)",
+      "2020-03-03 (1)"
+    ],
+    "VARIATION_IN_HIERARCHY_PERSPECTIVES" : [
+      "Survey",
+      "2019-05-28 (1)",
+      "2020-03-03 (1)"
+    ],
+    "WRANGLING_TOOLS_VERY_DIVERSE" : [
+      "Survey",
+      "2019-03-10 (1)"
+    ],
+    "REFERENCED_TECHNIQUES_INSTEAD_OF_TOOLS" : [
+      "Survey",
+      "2019-03-10 (1)"
+    ],
+    "MEDIA_TOO_UNDEFINED" : [
+      "Survey",
+      "2019-03-10 (1)"
+    ],
+    "EXPERT_HELP_NEEDED_TO_CHANGE_ABSTRACTIONS" : [
+      "Survey",
+      "2019-03-10 (1)"
+    ],
+    "MORE_DATA_NEEDED_TO_CHANGE_ABSTRACTIONS" : [
+      "Survey",
+      "2019-03-10 (1)",
+      "2019-03-17 (1)"
+    ],
+    "EMOTIONS_ABOUT_DATA_ABSTRACTIONS" : [
+      "2020-03-02 (1)",
+      "2020-03-06 (1)",
+      "2019-03-10 (1)"
+    ],
+    "TYPOLOGIES_HELP_COMMUNICATION" : [
+      "2020-03-06 (1)",
+      "2020-03-03 (1)",
+      "2019-03-17 (1)",
+      "2019-03-17 (1)",
+      "2019-04-01 (1)"
+    ],
+    "TYPOLOGIES_AID_REFLECTION" : [
+      "Survey",
+      "2020-03-03 (1)",
+      "2019-04-01 (1)"
+    ],
+    "SHOWING_RAW_DATA_HELPS_COMMUNICATION" : [
+      "2019-08-27 (1)",
+      "2019-11-26 (1)",
+      "2020-03-06 (1)",
+      "2019-03-17 (1)"
+    ],
+    "DATASET_A_COMPLEX_AND_EVOLVING_FORM" : [
+      "Survey",
+      "2020-03-03 (1)",
+      "2019-03-17 (1)"
+    ],
+    "LATENT_WRANGLING_OR_ABSTRACTION" : [
+      "Survey",
+      "2020-03-03 (1)",
+      "2019-03-17 (1)",
+      "2020-03-19 (1)",
+      "2019-04-01 (1)"
+    ],
+    "DISCREPANCY_BETWEEN_MENTAL_MODELS_AND_RAW_DATA" : [
+      "Survey",
+      "2019-04-01 (1)"
+    ]
+  }
+}
