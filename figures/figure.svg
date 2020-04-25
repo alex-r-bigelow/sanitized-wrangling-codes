@@ -1,0 +1,13 @@
+<svg width="1000", height="300">
+  <style type="text/css">
+    <![CDATA[
+        #sources path {
+           stroke: black;
+           fill: none;
+        }
+      ]]>
+  </style>
+  <g id="axis"></g>
+  <g id="layerDividers"></g>
+  <g id="sources"></g>
+</svg>
