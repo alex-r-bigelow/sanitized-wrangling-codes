@@ -4,11 +4,17 @@
 // manually called from the browser's console
 
 const layersHeight = 200;
-const axisOffset = layersHeight + 80;
+const axisOffset = layersHeight + 60;
 const horizontalRange = [10, 990];
 const layerRightPadding = 60;
 const timeRightPadding = 60;
 const timeDomain = [new Date('May 1 2019'), new Date('May 1 2020')];
+const themeLayers = [
+  'T1', 'T2', 'T3', 'T4'
+];
+const sourceTypeLayers = [
+  'Coding', 'Theoretical', 'Applied', 'Meetup'
+];
 
 window.updateLogAxis = (skip = false) => {
   // Create / update the horizontal axis
@@ -83,12 +89,6 @@ window.updateLinearAxis = (skip = false) => {
 };
 
 window.updateLayerDividers = (skip = false) => {
-  const themeLayers = [
-    'T1', 'T2', 'T3', 'T4'
-  ];
-  const sourceTypeLayers = [
-    'Coding', 'Theoretical', 'Applied', 'Meetup'
-  ];
   const allLayers = themeLayers.concat([null], sourceTypeLayers);
   const layerScale = d3.scaleBand()
     .domain(allLayers)
@@ -199,15 +199,28 @@ window.update = async ({
         ? 0.2 : 0.75;
     });
 
-  // Add / lay out context dots
-  let dots = sources.selectAll('.dot').data(d => d.contexts, d => d);
+  // Add / lay out layer dots
+  let dots = sources.selectAll('.dot').data(d => d.layers, d => d);
   dots.exit().remove();
   const dotsEnter = dots.enter().append('circle').classed('dot', true);
   dots = dots.merge(dotsEnter);
 
   dots
-    .attr('r', d => d === 'Meetup' ? 3 : 4)
+    .attr('r', d => themeLayers.indexOf(d) !== -1 || d === 'Meetup' ? 3 : 4)
     .attr('cy', d => layerScale(d))
     .attr('fill', 'black')
     .attr('opacity', d => d === 'Meetup' ? 0.25 : 0.5);
+
+  // Add / lay out code text lists
+  let codeText = sources.selectAll('.codeList')
+    .data(d => d.themes, d => d.theme);
+  codeText.exit().remove();
+  const codeTextEnter = codeText.enter().append('g').classed('codeList', true);
+  codeText = codeText.merge(codeTextEnter);
+
+  codeText.attr('transform', d => `translate(0,${layerScale(d.theme)})`);
+
+  codeTextEnter.append('text');
+  codeText.select('text')
+    .text(d => d.codes.join(', '));
 };
