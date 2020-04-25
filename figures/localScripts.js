@@ -3,9 +3,12 @@
 // Scripts specific for the d3 side of constructing the figure; these are also
 // manually called from the browser's console
 
-const axisOffset = 280;
+const layersHeight = 200;
+const axisOffset = layersHeight + 80;
 const horizontalRange = [10, 990];
-const timeDomain = [new Date('May 1 2019'), new Date('April 30 2020')];
+const layerRightPadding = 60;
+const timeRightPadding = 60;
+const timeDomain = [new Date('May 1 2019'), new Date('May 1 2020')];
 
 window.updateLogAxis = (skip = false) => {
   // Create / update the horizontal axis
@@ -14,7 +17,7 @@ window.updateLogAxis = (skip = false) => {
     .range([100, 1]);
   const logToPosition = d3.scaleLog()
     .domain([100, 1])
-    .range(horizontalRange);
+    .range([horizontalRange[0], horizontalRange[1] - timeRightPadding]);
   const timeScale = d => logToPosition(dateToLog(d));
 
   const tickValues = [
@@ -29,7 +32,8 @@ window.updateLogAxis = (skip = false) => {
     new Date('Jan 1 2020'),
     new Date('Feb 1 2020'),
     new Date('Mar 1 2020'),
-    new Date('Apr 1 2020')
+    new Date('Apr 1 2020'),
+    new Date('May 1 2020')
   ].map(dateToLog);
   if (!skip) {
     const axis = d3.select('#axis').call(d3.axisBottom(logToPosition).tickValues(tickValues))
@@ -48,7 +52,7 @@ window.updateLinearAxis = (skip = false) => {
   // Create / update the horizontal axis
   const timeScale = d3.scaleTime()
     .domain(timeDomain)
-    .range(horizontalRange);
+    .range([horizontalRange[0], horizontalRange[1] - timeRightPadding]);
 
   const tickValues = [
     new Date('May 1 2019'),
@@ -62,7 +66,8 @@ window.updateLinearAxis = (skip = false) => {
     new Date('Jan 1 2020'),
     new Date('Feb 1 2020'),
     new Date('Mar 1 2020'),
-    new Date('Apr 1 2020')
+    new Date('Apr 1 2020'),
+    new Date('May 1 2020')
   ];
   if (!skip) {
     const axis = d3.select('#axis')
@@ -87,7 +92,7 @@ window.updateLayerDividers = (skip = false) => {
   const allLayers = themeLayers.concat([null], sourceTypeLayers);
   const layerScale = d3.scaleBand()
     .domain(allLayers)
-    .range([0, axisOffset])
+    .range([0, layersHeight])
     .padding(1);
 
   if (!skip) {
@@ -102,9 +107,11 @@ window.updateLayerDividers = (skip = false) => {
         } else {
           return horizontalRange[0] - horizontalRange[1];
         }
-      });
+      })
+      .attr('opacity', 0.25);
     ticks.select('text')
       .attr('dy', '-0.1em');
+    d3.select('#layerDividers .domain').remove();
   }
 
   return layerScale;
@@ -145,10 +152,16 @@ window.update = async ({
     note.layers = note.contexts.concat(note.themes.map(themeObj => themeObj.theme));
   });
   // Sort the sources by date
-  audit['Field Notes'].sort((a, b) => b.date - a.date);
+  audit['Field Notes'].sort((a, b) => a.date - b.date);
 
   // Update the time scale
   const timeScale = xAxisUpdate(skipXUpdate);
+
+  // Create an evenly spread scale to use space outside the time axis more
+  // effectively
+  const spreadScale = d3.scaleBand()
+    .range([horizontalRange[0], horizontalRange[1] - layerRightPadding])
+    .domain(audit['Field Notes'].map(d => d.id));
 
   // Update the layers
   const layerScale = window.updateLayerDividers(skipYUpdate);
@@ -161,13 +174,40 @@ window.update = async ({
     .classed('source', true);
   sources = sources.merge(sourcesEnter);
 
-  sources.attr('transform', function (d) {
-    return `translate(${timeScale(d.date)},0)`;
-  });
-
   sourcesEnter.append('path');
-  sources.select('path').attr('d', d => {
-    const topCoord = Math.min(...d.layers.map(layerScale));
-    return `M0,${axisOffset}L0,${topCoord}`;
-  });
+  sources
+    .attr('data-id', d => d.id)
+    .attr('transform', d => {
+      return `translate(${spreadScale(d.id)},0)`;
+    })
+    .select('path')
+    .attr('d', d => {
+      const timeXOffset = timeScale(d.date) - spreadScale(d.id);
+      const meetupYCoord = layerScale('Meetup');
+      const anchorThirds = (axisOffset - meetupYCoord) / 3;
+      const topYCoord = Math.min(...d.layers.map(layerScale));
+      return `M${timeXOffset},${axisOffset}
+              C${timeXOffset},${axisOffset - anchorThirds},
+               0,${meetupYCoord + anchorThirds},
+               0,${meetupYCoord}
+              L0,${topYCoord}`;
+    })
+    .attr('fill', 'none')
+    .attr('stroke', 'black')
+    .attr('opacity', d => {
+      return d.layers.length === 1 && d.layers[0] === 'Meetup'
+        ? 0.2 : 0.75;
+    });
+
+  // Add / lay out context dots
+  let dots = sources.selectAll('.dot').data(d => d.contexts, d => d);
+  dots.exit().remove();
+  const dotsEnter = dots.enter().append('circle').classed('dot', true);
+  dots = dots.merge(dotsEnter);
+
+  dots
+    .attr('r', d => d === 'Meetup' ? 3 : 4)
+    .attr('cy', d => layerScale(d))
+    .attr('fill', 'black')
+    .attr('opacity', d => d === 'Meetup' ? 0.25 : 0.5);
 };

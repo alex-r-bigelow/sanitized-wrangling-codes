@@ -12,7 +12,7 @@
     { "date": "2019-09-13", "contexts": ["Theoretical"] },
     { "date": "2019-11-14", "contexts": ["Theoretical"], "meetingNo": 1 },
     { "date": "2019-12-10", "contexts": ["Applied"], "meetingNo": 1 },
-    { "date": "2019-02-25", "contexts": ["Theoretical", "Coding"] },
+    { "date": "2020-02-25", "contexts": ["Theoretical", "Coding"], "meetingNo": 1 },
     { "date": "2020-02-28", "contexts": ["Theoretical"], "meetingNo": 1 },
     { "date": "2020-03-03", "contexts": ["Theoretical", "Coding"] },
     { "date": "2020-03-10", "contexts": ["Theoretical", "Coding"], "meetingNo": 1 },
@@ -28,9 +28,9 @@
     { "date": "2019-11-04", "contexts": ["Theoretical", "Applied"] },
     { "date": "2019-11-19", "contexts": ["Applied"] },
     { "date": "2019-11-20", "contexts": ["Applied"] },
-    { "date": "2019-11-21", "contexts": ["Applied"], "meetingNo": "1" },
-    { "date": "2019-11-21", "contexts": ["Applied"], "meetingNo": "2" },
-    { "date": "2019-11-21", "contexts": ["Applied"], "meetingNo": "3" },
+    { "date": "2019-11-21", "contexts": ["Applied"], "meetingNo": 1 },
+    { "date": "2019-11-21", "contexts": ["Applied"], "meetingNo": 2 },
+    { "date": "2019-11-21", "contexts": ["Applied"], "meetingNo": 3 },
     { "date": "2019-11-26", "contexts": ["Applied", "Meetup"] },
     { "date": "2019-12-03", "contexts": ["Applied", "Meetup"] },
     { "date": "2020-01-08", "contexts": ["Applied"] },
@@ -104,7 +104,7 @@
     { "date": "2020-01-30", "contexts": ["Meetup"] },
     { "date": "2020-02-18", "contexts": ["Meetup"], "meetingNo": 2 },
     { "date": "2020-02-20", "contexts": ["Meetup"], "meetingNo": 2 },
-    { "date": "2020-02-25", "contexts": ["Meetup"] },
+    { "date": "2020-02-25", "contexts": ["Meetup"], "meetingNo": 2 },
     { "date": "2020-02-27", "contexts": ["Meetup"], "meetingNo": 2 },
     { "date": "2020-03-10", "contexts": ["Meetup"], "meetingNo": 2 },
     { "date": "2020-03-17", "contexts": ["Meetup"], "meetingNo": 2 },
@@ -117,45 +117,45 @@
   "Code Sources": {
     "RESPONSE_SIZES" : [
       "Survey",
-      "2019-02-27 (1)"
+      "2020-02-27 (1)"
     ],
     "MANY_VERY_INACCURATE_RESPONSES" : [
       "Survey",
-      "2019-02-27 (1)"
+      "2020-02-27 (1)"
     ],
     "MISSING_FUNCTION_CATEGORY" : [
       "Survey",
       "2019-11-04 (1)",
       "2020-03-04 (1)",
-      "2019-02-25 (1)",
-      "2019-02-27 (1)",
-      "2019-03-17 (1)"
+      "2020-02-25 (1)",
+      "2020-02-27 (1)",
+      "2020-03-17 (1)"
     ],
     "MISSING_CODE_CATEGORY" : [
       "2020-02-18 (1)",
-      "2019-02-25 (1)",
-      "2019-02-27 (1)"
+      "2020-02-25 (1)",
+      "2020-02-27 (1)"
     ],
     "HARD_TO_ISOLATE_DESIGN_FROM_OTHER_CONCERNS" : [
       "Survey",
       "2020-02-04 (1)",
       "2020-01-21 (1)",
-      "2019-02-25 (1)",
-      "2019-03-17 (1)"
+      "2020-02-25 (1)",
+      "2020-03-17 (1)"
     ],
     "INTUITION_ABOUT_NETWORKS" : [
       "Survey",
       "2019-10-21 (1)",
       "2019-10-21 (3)",
       "2019-11-21 (2)",
-      "2019-02-27 (1)",
+      "2020-02-27 (1)",
       "2020-03-03 (1)"
     ],
     "INTUITION_ABOUT_GROUPS" : [
       "Survey",
       "2019-10-21 (3)",
       "2019-11-21 (3)",
-      "2019-02-27 (1)",
+      "2020-02-27 (1)",
       "2020-03-03 (1)"
     ],
     "DOESNT_COUNT_AS_DATA" : [
@@ -165,15 +165,15 @@
       "2020-02-10 (1)",
       "2019-11-21 (1)",
       "2020-02-18 (1)",
-      "2019-02-25 (1)",
-      "2019-02-27 (1)"
+      "2020-02-25 (1)",
+      "2020-02-27 (1)"
     ],
     "FOREIGN_TERMINOLOGY" : [
       "Survey",
       "2019-11-20 (1)",
-      "2019-02-25 (1)",
-      "2019-02-27 (1)",
-      "2019-03-17 (1)"
+      "2020-02-25 (1)",
+      "2020-02-27 (1)",
+      "2020-03-17 (1)"
     ],
     "HARD_TO_ISOLATE_FROM_FILE_FORMATS" : [
       "Survey",
@@ -181,10 +181,10 @@
     ],
     "HARD_TO_ISOLATE_FROM_SOFTWARE_ABSTRACTIONS" : [
       "Survey",
-      "2020-12-03 (1)",
+      "2019-12-03 (1)",
       "2020-02-04 (1)",
-      "2019-02-25 (1)",
-      "2019-03-10 (1)"
+      "2020-02-25 (1)",
+      "2020-03-10 (1)"
     ],
     "SCOPE_CREEP_FEARS" : [
       "2020-03-04 (1)",
@@ -197,63 +197,63 @@
     ],
     "WRANGLING_TOOLS_VERY_DIVERSE" : [
       "Survey",
-      "2019-03-10 (1)"
+      "2020-03-10 (1)"
     ],
     "REFERENCED_TECHNIQUES_INSTEAD_OF_TOOLS" : [
       "Survey",
-      "2019-03-10 (1)"
+      "2020-03-10 (1)"
     ],
     "MEDIA_TOO_UNDEFINED" : [
       "Survey",
-      "2019-03-10 (1)"
+      "2020-03-10 (1)"
     ],
     "EXPERT_HELP_NEEDED_TO_CHANGE_ABSTRACTIONS" : [
       "Survey",
-      "2019-03-10 (1)"
+      "2020-03-10 (1)"
     ],
     "MORE_DATA_NEEDED_TO_CHANGE_ABSTRACTIONS" : [
       "Survey",
-      "2019-03-10 (1)",
-      "2019-03-17 (1)"
+      "2020-03-10 (1)",
+      "2020-03-17 (1)"
     ],
     "EMOTIONS_ABOUT_DATA_ABSTRACTIONS" : [
       "2020-03-02 (1)",
       "2020-03-06 (1)",
-      "2019-03-10 (1)"
+      "2020-03-10 (1)"
     ],
     "TYPOLOGIES_HELP_COMMUNICATION" : [
       "2020-03-06 (1)",
       "2020-03-03 (1)",
-      "2019-03-17 (1)",
-      "2019-03-17 (1)",
-      "2019-04-01 (1)"
+      "2020-03-17 (1)",
+      "2020-03-17 (1)",
+      "2020-04-01 (1)"
     ],
     "TYPOLOGIES_AID_REFLECTION" : [
       "Survey",
       "2020-03-03 (1)",
-      "2019-04-01 (1)"
+      "2020-04-01 (1)"
     ],
     "SHOWING_RAW_DATA_HELPS_COMMUNICATION" : [
       "2019-08-27 (1)",
       "2019-11-26 (1)",
       "2020-03-06 (1)",
-      "2019-03-17 (1)"
+      "2020-03-17 (1)"
     ],
     "DATASET_A_COMPLEX_AND_EVOLVING_FORM" : [
       "Survey",
       "2020-03-03 (1)",
-      "2019-03-17 (1)"
+      "2020-03-17 (1)"
     ],
     "LATENT_WRANGLING_OR_ABSTRACTION" : [
       "Survey",
       "2020-03-03 (1)",
-      "2019-03-17 (1)",
+      "2020-03-17 (1)",
       "2020-03-19 (1)",
-      "2019-04-01 (1)"
+      "2020-04-01 (1)"
     ],
     "DISCREPANCY_BETWEEN_MENTAL_MODELS_AND_RAW_DATA" : [
       "Survey",
-      "2019-04-01 (1)"
+      "2020-04-01 (1)"
     ]
   },
   "Code Order": {
