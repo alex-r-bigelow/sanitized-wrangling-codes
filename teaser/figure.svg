@@ -1,0 +1,16 @@
+<svg width="1000", height="400">
+  <style type="text/css">
+    <![CDATA[
+        text {
+        -inkscape-font-specification:'CMU Bright Semi-Bold';
+        font-family:'CMU Bright';
+        font-weight:600;
+        }
+      ]]>
+  </style>
+  <g id="axis"></g>
+  <g id="layerDividers"></g>
+  <g id="themeGuides"></g>
+  <g id="sources"></g>
+  <g id="themeDots"></g>
+</svg>

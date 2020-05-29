@@ -3,18 +3,15 @@
 // Scripts specific for the d3 side of constructing the figure; these are also
 // manually called from the browser's console
 
-const layersHeight = 200;
-const axisOffset = layersHeight + 60;
-const horizontalRange = [10, 990];
-const layerRightPadding = 60;
-const timeRightPadding = 60;
+const axisOffset = 40;
+const layersRange = [axisOffset + 60, 400];
+const horizontalRange = [60, 900];
+const themeRange = [930, 980];
 const timeDomain = [new Date('May 1 2019'), new Date('May 1 2020')];
-const themeLayers = [
-  'T1', 'T2', 'T3', 'T4'
-];
 const sourceTypeLayers = [
-  'Coding', 'Theoretical', 'Applied', 'Meetup'
+  'Meetup', 'Applied', 'Theoretical', 'Coding'
 ];
+const codeLayers = Array.from(Array(24).keys()).map(n => `C${n + 1}`);
 
 window.updateLogAxis = (skip = false) => {
   // Create / update the horizontal axis
@@ -23,7 +20,7 @@ window.updateLogAxis = (skip = false) => {
     .range([100, 1]);
   const logToPosition = d3.scaleLog()
     .domain([100, 1])
-    .range([horizontalRange[0], horizontalRange[1] - timeRightPadding]);
+    .range(horizontalRange);
   const timeScale = d => logToPosition(dateToLog(d));
 
   const tickValues = [
@@ -58,7 +55,7 @@ window.updateLinearAxis = (skip = false) => {
   // Create / update the horizontal axis
   const timeScale = d3.scaleTime()
     .domain(timeDomain)
-    .range([horizontalRange[0], horizontalRange[1] - timeRightPadding]);
+    .range(horizontalRange);
 
   const tickValues = [
     new Date('May 1 2019'),
@@ -77,7 +74,7 @@ window.updateLinearAxis = (skip = false) => {
   ];
   if (!skip) {
     const axis = d3.select('#axis')
-      .call(d3.axisBottom(timeScale).tickValues(tickValues))
+      .call(d3.axisTop(timeScale).tickValues(tickValues))
       .attr('transform', `translate(0,${axisOffset})`);
     axis.selectAll('.tick').select('text')
       .text(d => {
@@ -89,28 +86,41 @@ window.updateLinearAxis = (skip = false) => {
 };
 
 window.updateLayerDividers = (skip = false) => {
-  const allLayers = themeLayers.concat([null], sourceTypeLayers);
+  // Space the sourceTypeLayers out...
+  let dummyValue = 0;
+  const allLayers = sourceTypeLayers.reduce((agg, layer) => {
+    dummyValue += 1;
+    return agg.concat([dummyValue, layer]);
+  }, []).concat([ // put some space between the code layers
+    dummyValue + 1,
+    dummyValue + 2,
+    dummyValue + 3], codeLayers);
   const layerScale = d3.scaleBand()
     .domain(allLayers)
-    .range([0, layersHeight])
+    .range(layersRange)
     .padding(1);
 
   if (!skip) {
     const ticks = d3.select('#layerDividers')
-      .call(d3.axisLeft(layerScale))
-      .attr('transform', `translate(${horizontalRange[1]},0)`)
+      .call(d3.axisRight(layerScale))
+      .attr('transform', `translate(${horizontalRange[0]},0)`)
       .selectAll('.tick');
     ticks.select('line')
       .attr('x2', d => {
-        if (d === null) {
-          return 0;
+        if (typeof d === 'number') {
+          return 0; // dummyValue
+        } else if (sourceTypeLayers.indexOf(d) !== -1) {
+          return horizontalRange[1] - horizontalRange[0];
         } else {
-          return horizontalRange[0] - horizontalRange[1];
+          return themeRange[1] - horizontalRange[0];
         }
       })
       .attr('opacity', 0.25);
     ticks.select('text')
-      .attr('dy', '-0.1em');
+      .attr('text-anchor', 'end')
+      .attr('x', '-0.5em')
+      .attr('dx', null) // Inkscape messes this up
+      .attr('opacity', d => typeof d === 'number' ? 0 : 1);
     d3.select('#layerDividers .domain').remove();
   }
 
@@ -136,20 +146,11 @@ window.update = async ({
       note.date.setTime(note.date.getTime() + note.meetingNo);
     }
 
-    const rawCodes = Object.keys(audit['Code Sources']).filter(rawCode => {
+    note.codes = Object.keys(audit['Code Sources']).filter(rawCode => {
       return audit['Code Sources'][rawCode].indexOf(note.id) !== -1;
-    });
+    }).map(rawCode => audit['Code Order'][rawCode]);
 
-    note.themes = Object.keys(audit['Theme Codes']).map(theme => {
-      return {
-        theme,
-        codes: rawCodes.filter(rawCode => {
-          return audit['Theme Codes'][theme].indexOf(rawCode) !== -1;
-        }).map(rawCode => audit['Code Order'][rawCode])
-      };
-    }).filter(themeObj => themeObj.codes.length > 0);
-
-    note.layers = note.contexts.concat(note.themes.map(themeObj => themeObj.theme));
+    note.layers = note.contexts.concat(note.codes);
   });
   // Sort the sources by date
   audit['Field Notes'].sort((a, b) => a.date - b.date);
@@ -160,7 +161,7 @@ window.update = async ({
   // Create an evenly spread scale to use space outside the time axis more
   // effectively
   const spreadScale = d3.scaleBand()
-    .range([horizontalRange[0], horizontalRange[1] - layerRightPadding])
+    .range(horizontalRange)
     .domain(audit['Field Notes'].map(d => d.id));
 
   // Update the layers
@@ -184,13 +185,13 @@ window.update = async ({
     .attr('d', d => {
       const timeXOffset = timeScale(d.date) - spreadScale(d.id);
       const meetupYCoord = layerScale('Meetup');
-      const anchorThirds = (axisOffset - meetupYCoord) / 3;
-      const topYCoord = Math.min(...d.layers.map(layerScale));
+      const anchorThirds = (meetupYCoord - axisOffset) / 3;
+      const bottomYCoord = Math.max(...d.layers.map(layerScale));
       return `M${timeXOffset},${axisOffset}
-              C${timeXOffset},${axisOffset - anchorThirds},
-               0,${meetupYCoord + anchorThirds},
+              C${timeXOffset},${axisOffset + anchorThirds},
+               0,${meetupYCoord - anchorThirds},
                0,${meetupYCoord}
-              L0,${topYCoord}`;
+              L0,${bottomYCoord}`;
     })
     .attr('fill', 'none')
     .attr('stroke', 'black')
@@ -206,21 +207,40 @@ window.update = async ({
   dots = dots.merge(dotsEnter);
 
   dots
-    .attr('r', d => themeLayers.indexOf(d) !== -1 || d === 'Meetup' ? 3 : 4)
+    .attr('r', d => d === 'Applied' || d === 'Theoretical' || d === 'Coding' ? 4 : 3)
     .attr('cy', d => layerScale(d))
     .attr('fill', 'black')
     .attr('opacity', d => d === 'Meetup' ? 0.25 : 0.5);
 
-  // Add / lay out code text lists
-  let codeText = sources.selectAll('.codeList')
-    .data(d => d.themes, d => d.theme);
-  codeText.exit().remove();
-  const codeTextEnter = codeText.enter().append('g').classed('codeList', true);
-  codeText = codeText.merge(codeTextEnter);
+  // Create / update the theme guides
+  const themeScale = d3.scalePoint()
+    .domain(Object.keys(audit['Theme Codes']))
+    .range(themeRange);
+  const themeOffset = layerScale('C1');
+  const ticks = d3.select('#themeGuides')
+    .call(d3.axisTop(themeScale))
+    .attr('transform', `translate(0,${themeOffset})`)
+    .selectAll('.tick');
+  ticks.select('line')
+    .attr('y2', layerScale('C24') - themeOffset);
+  d3.select('#themeGuides .domain').remove();
 
-  codeText.attr('transform', d => `translate(0,${layerScale(d.theme)})`);
+  // Create / lay out the theme dots
+  let themes = d3.select('#themeDots').selectAll('.theme')
+    .data(Object.entries(audit['Theme Codes']));
+  themes.exit().remove();
+  const themesEnter = themes.enter().append('g').classed('theme', true);
+  themes = themes.merge(themesEnter);
 
-  codeTextEnter.append('text');
-  codeText.select('text')
-    .text(d => d.codes.join(', '));
+  themes.attr('transform', d => `translate(${themeScale(d[0])})`);
+
+  let themeDots = themes.selectAll('.dot')
+    .data(d => d[1], d => d);
+  themeDots.exit().remove();
+  const themeDotsEnter = themeDots.enter().append('circle').classed('dot', true);
+  themeDots = themeDots.merge(themeDotsEnter);
+
+  themeDots.attr('r', 3)
+    .attr('cy', d => layerScale(audit['Code Order'][d]))
+    .attr('opacity', 0.5);
 };

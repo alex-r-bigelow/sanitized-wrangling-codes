@@ -9,7 +9,8 @@ Formatting conventions
 Codes
 =====
 
-## RESPONSE_SIZES. The median dataset is on the order of megabytes (close to gigabytes) in size, with thousands of items in the dataset and tens of attributes.
+## RESPONSE_SIZES. There was wide variation in reported dataset scales.
+  - The median dataset is on the order of megabytes (close to gigabytes) in size, with thousands of items in the dataset and tens of attributes.
   - determined the median response for each of the "Basic Dataset Characteristics" questions (e.g. "Approximately how large is this dataset?")
 
 ## MANY_VERY_INACCURATE_RESPONSES. In the "Initial Data abstractions" section, some categories had a lot of "Very inaccurate" responses to the data abstraction. WHY?
@@ -102,14 +103,14 @@ Codes
     - "It is a collection of free text with an embedded scenario and threats for analysts to find."
     - "A spreadsheet"
 
-## HARD_TO_ISOLATE_FROM_FILE_FORMATS
+## HARD_TO_ISOLATE_DESIGN_FROM_FILE_FORMATS
   - Responses to "Other Generalizations" that described file formats that were a clear fit for some of our categories:
     - "Directed graph represented in a format such as dot"
     - "CSV file with readings from sensors every minute"
     - "It is a collection of free text with an embedded scenario and threats for analysts to find."
     - "A spreadsheet"
 
-## HARD_TO_ISOLATE_FROM_SOFTWARE_ABSTRACTIONS. Raw data abstractions difficult to talk about in isolation from software abstractions
+## HARD_TO_ISOLATE_DESIGN_FROM_SOFTWARE_ABSTRACTIONS. Raw data abstractions difficult to talk about in isolation from software abstractions
   - Conversations proved very difficult to for A-1 focus on how a person thinks about their data; participants frequently pivoted to talking about abstractions imposed by software that were often only loosely associated with the data model itself (such as git's model of remotes and branches with I-02, or Jupyter's statefulness with I-02 and I-13)
   - Other generalizations: "A spreadsheet," even though "Tabular" data was an option and we gave them the opportunity to rename it (although they may not have known)!
   - Merged from prior RELIANCE_ON_ABSTRACTIONS_FROM_SOFTWARE code: Validated: People tend to turn to data abstractions that match some existing prior experience with software
@@ -159,7 +160,7 @@ Codes
     transform the data?
 
 ## EMOTIONS_ABOUT_DATA_ABSTRACTIONS. People have emotions about data abstractions
- - (todo: A-1's evidence)
+ - Conversations with I-06, I-07, I-08, I-09, I-10, I-11, I-12 while prototyping a visualization
  - A-1, A-2 discussion: Abstractions are personalized / subjective / contextual; you have to remember the ecosystem of how the data was created, who it's going to impact, who are the subjects
 
 ## TYPOLOGIES_HELP_COMMUNICATION. Data abstraction typologies help people communicate at a sufficient level of detail to design a visualization system
@@ -271,8 +272,8 @@ those sets.” (from Initial Dataset Debrief)
       - More people who were asked to think about their data as text or networks expressed difficulty and said they had fewer plans to reshape
     - Many 'neither agree or disagree' answers
 
-Categories
-==========
+Themes
+======
 
 ## The visualization community identifies data abstractions for its own transferability needs, but the process of identifying an abstraction is an intervention with far-reaching effects
 Collaborations with data workers beyond the visualization research community stand to benefit---and can be harmed---by the way that we introduce, articulate, and explore data abstractions
@@ -288,7 +289,7 @@ Codes:
     - Shows that there is a disconnect between how visualization people talk about data, and how data workers in general talk about data. Introducing a visualization perspective is an intervention.
   - HARD_TO_ISOLATE_DESIGN_FROM_OTHER_CONCERNS
     - Shows that influencing the design of a worker's data abstraction can have far-reaching theoretical effects, including impacts on data discovery, capture, curation, creation
-  - HARD_TO_ISOLATE_FROM_SOFTWARE_ABSTRACTIONS
+  - HARD_TO_ISOLATE_DESIGN_FROM_SOFTWARE_ABSTRACTIONS
     - Shows that influencing the design of a worker's data abstraction can have far-reaching practical effects, including disruptions in workflows and changes to the software that data workers use
   - SCOPE_CREEP_FEARS
     - Shows that data workers are often cognizant of the impacts that changes to the design of their abstraction will have, including considerations that they may or may not be able to articulate in detail
@@ -324,7 +325,7 @@ Codes:
 When there exists a direct mapping between familiar software and the format of the raw data, efforts to introduce a new abstraction will likely be met with resistance
 
 Codes:
-  - HARD_TO_ISOLATE_FROM_SOFTWARE_ABSTRACTIONS
+  - HARD_TO_ISOLATE_DESIGN_FROM_SOFTWARE_ABSTRACTIONS
     - Shows that there is often a tight coupling in how data workers think about their abstractions, and the software that they are familiar with. Changes to the design of an abstraction incurs a cost in learning new software.
   - REFERENCED_TECHNIQUES_INSTEAD_OF_TOOLS
     - Shows that there is often a tight coupling in how data workers think about software, and the higher-level abstractions associated with that software, to the point that people often refer to them interchangeably.
