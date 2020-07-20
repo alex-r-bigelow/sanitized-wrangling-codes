@@ -11,8 +11,7 @@ archived on osf.io. As such, before committing, please remember to check that:
    - include a link or paper title when the evidence is coming from a publication
    - add a short summary of your observation when the evidence is coming from your field notes and add
      a row to informants.csv, describing a general profile of the informant
-   - include a link to the relevant response(s) to the survey (TODO: Alex will add an ability to link to
-     filtered sets of responses as soon as possible)
+   - include a link to the relevant response(s) to the survey
 3. You are committing to a branch other than master and request a review from one other author before merging a pull request.
 
 Github's record of our discussions, linked to the evolution of codes, is an important part of our audit trail
